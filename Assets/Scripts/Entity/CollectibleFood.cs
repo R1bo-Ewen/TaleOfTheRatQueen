@@ -4,22 +4,14 @@ using UnityEngine;
 
 public class CollectibleFood : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    
+    public int FoodEaten;
     public void OnTriggerEnter(Collider Col)
     {
         if (Col.gameObject.tag == "Food")
         {
-
+            Debug.Log("Miam miam !");
+            FoodEaten++;
+            Col.gameObject.SetActive(false);
         }
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
