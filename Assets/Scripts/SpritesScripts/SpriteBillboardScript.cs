@@ -4,7 +4,7 @@ public class NewBehaviourScript : MonoBehaviour
 {
     // Update is called once per frame
     [SerializeField] private bool freezeXZAxis = true;
-    void Update()
+    void LateUpdate()
     {
         if (freezeXZAxis)
         {
