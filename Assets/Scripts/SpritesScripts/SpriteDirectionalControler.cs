@@ -5,10 +5,13 @@ using UnityEngine.AI;
 
 public class SpriteDirectionn : MonoBehaviour
 {
+    // Prise de tous les différents angles pour lesquels le sprite devra changer
     [SerializeField] private float backAngle = 36f;
     [SerializeField] private float backThreeAngle = 72f;
     [SerializeField] private float sideAngle = 108f;
     [SerializeField] private float sideThreeAngle = 144f;
+    
+    // Transform de l'objet (pour savoir où il regarde)
     [SerializeField] private Transform mainTransform;
 
     [SerializeField] private Animator animator;
