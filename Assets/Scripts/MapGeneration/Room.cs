@@ -2,31 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Room
+// Represents a room in a map.
+public struct Room
 {
-    private int _id;
-    private Vector2Int _coords;
-    private List<Room> _neighbors;
+    private Vector2Int m_coords;
+    private List<Room> m_neighbors;
+    private Vector2 m_position;
 
-    public Room(int id, Vector2Int coords)
+    // Initializes a new instance of the <see cref="Room"/> struct.
+    public Room(Vector2Int mCoords)
     {
-        this._id = id;
-        this._coords = coords;
-        this._neighbors = new List<Room>();
+        m_coords = mCoords;
+        m_neighbors = new List<Room>();
+        m_position = new Vector2(m_coords.x * 10, m_coords.y * 10);
     }
 
+    // Gets the coordinates of the room.
     public Vector2Int GetCoords()
     {
-        return _coords;
+        return m_coords;
     }
 
-    public List<Room> GetNeighbors()
+    // Gets the position of the room.
+    public Vector2 GetPosition()
     {
-        return _neighbors;
+        return m_position;
     }
 
+    // Adds a neighbor to the room.
     public void AddNeighbor(Room neighbor)
     {
-        _neighbors.Add(neighbor);
+        m_neighbors.Add(neighbor);
     }
 }
