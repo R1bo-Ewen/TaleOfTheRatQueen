@@ -1,10 +1,7 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.Serialization;
-using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 // Generates a map by creating rooms and connecting them with doors.
@@ -13,6 +10,7 @@ public class MapGeneration : MonoBehaviour
     [SerializeField] private Vector2Int mapSize = new Vector2Int(20, 20);     // Virtual map grid size
     [SerializeField, Range(5, 50)] private int nbRoomMax = 10;               // Maximum number of rooms
     [SerializeField] private GameObject roomPrefab;
+    [SerializeField] private GameObject wallPrefab;
     [SerializeField] private GameObject doorPrefab;
     private bool[,] mapGrid;                                                  // Virtual map grid
     private List<Room> rooms;
@@ -29,7 +27,6 @@ public class MapGeneration : MonoBehaviour
     private void Start()
     {
         GenerateMap();
-        
     }
 
     // Generates a map by creating rooms and connecting them with doors.
@@ -148,18 +145,27 @@ public class MapGeneration : MonoBehaviour
     // Spawns the rooms and doors in the game world based on their positions.
     private void SpawnRooms()
     {
+        GameObject roomsParent = new GameObject();
+        roomsParent.name = "Rooms";
+        GameObject doorsParent = new GameObject();
+        doorsParent.name = "Doors";
+        
         foreach (Room room in rooms)
         {
             GameObject roomTile = Instantiate(roomPrefab);
-            Vector3 roomTilePos = new Vector3(room.GetPosition().x, 0.0f, room.GetPosition().y);
-            roomTile.transform.position = roomTilePos;
+            Vector3 roomTileSize = roomTile.GetComponent<PrefabBounds>().GetSize();
+            room.SetPosition(new Vector2(roomTileSize.x * room.GetCoords().x, roomTileSize.z * room.GetCoords().y));
+            roomTile.transform.position = new Vector3(room.GetPosition().x, 0.0f, room.GetPosition().y);
+            roomTile.transform.SetParent(roomsParent.transform);
         }
 
         foreach (Door door in doors)
         {
             GameObject doorTile = Instantiate(doorPrefab);
-            Vector3 doorTilePos = new Vector3(door.GetPosition().x, 0.01f, door.GetPosition().y);
+            door.UpdatePosition();
+            Vector3 doorTilePos = new Vector3(door.GetPosition().x, 0.0f, door.GetPosition().y);
             doorTile.transform.position = doorTilePos;
+            doorTile.transform.SetParent(doorsParent.transform);
         }
     }
 }
