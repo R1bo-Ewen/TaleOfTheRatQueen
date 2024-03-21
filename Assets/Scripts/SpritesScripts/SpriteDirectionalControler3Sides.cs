@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class SpriteDirection : MonoBehaviour
+public class SpriteDirection3Side : MonoBehaviour
 {
     // Prise de tous les différents angles pour lesquels le sprite devra changer
-    [SerializeField] private float backAngle = 36f;
-    [SerializeField] private float backThreeAngle = 72f;
-    [SerializeField] private float sideAngle = 108f;
-    [SerializeField] private float sideThreeAngle = 144f;
+    [SerializeField] private float backAngle = 65f;
+    [SerializeField] private float sideAngle = 155f;
     
     // Transform de l'objet (pour savoir où il regarde)
     [SerializeField] private Transform mainTransform;
@@ -33,30 +31,17 @@ public class SpriteDirection : MonoBehaviour
         {
             spriteRenderer.flipX = true;
         }
-        
-        if(angle < backAngle)
+
+        if (angle < backAngle)
         {
-            Debug.Log("backAngle");
             animationDirection = new Vector2(0.01f, -1f);
-        }
-        else if(angle < backThreeAngle)
-        {
-            Debug.Log("backThreeAngle");
-            animationDirection = new Vector2(0.75f, -0.75f);
         }
         else if(angle < sideAngle)
         {
-            Debug.Log("sideAngle");
             animationDirection = new Vector2(1f, 0f);
-        }
-        else if(angle < sideThreeAngle)
-        {
-            Debug.Log("sideThreeAngle");
-            animationDirection = new Vector2(0.75f, 0.75f);
         }
         else
         {
-            Debug.Log("frontAngle");
             animationDirection = new Vector2(0f, 1f);
         }
         animator.SetFloat("moveX", animationDirection.x);
