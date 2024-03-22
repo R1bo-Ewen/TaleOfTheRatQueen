@@ -39,7 +39,7 @@ public class MapGeneration : MonoBehaviour
         rooms = new List<Room>();
         doors = new List<Door>();
         
-        Vector2Int firstRoomCoords = new Vector2Int(0, 0);
+        Vector2Int firstRoomCoords = new Vector2Int(mapSize.x / 2, mapSize.y / 2);
         CreateRoom(firstRoomCoords);
 
         for (int i = 1; i < nbRoomMax; i++)
