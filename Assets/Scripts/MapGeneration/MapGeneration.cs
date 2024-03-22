@@ -16,13 +16,15 @@ public class MapGeneration : MonoBehaviour
     private List<Room> rooms;
     private List<Door> doors;
     
-    private enum Direction
+    public enum Direction
     {
         NORTH,
         EAST,
         SOUTH,
         WEST
     }
+
+    public List<Direction> DIRECTIONS = Enum.GetValues(typeof(Direction)).Cast<Direction>().ToList();
 
     private void Start()
     {
@@ -45,7 +47,7 @@ public class MapGeneration : MonoBehaviour
             ExploreRoom(rooms.Last());
         }
         
-        SpawnRooms();
+        SpawnMapElements();
     }
 
     // Create a room and update the map grid and the list of rooms.
@@ -115,7 +117,7 @@ public class MapGeneration : MonoBehaviour
     {
         List<Direction> directions = new List<Direction>();
         
-        foreach (Direction direction in Enum.GetValues(typeof(Direction)))
+        foreach (Direction direction in DIRECTIONS)
         {
             Vector2Int neighborCoords = GetNeighborCoords(direction, room.GetCoords());
 
@@ -142,30 +144,109 @@ public class MapGeneration : MonoBehaviour
         return directions;
     }
 
-    // Spawns the rooms and doors in the game world based on their positions.
-    private void SpawnRooms()
+    // Spawns the rooms, doors and walls in the game world based on their positions.
+    private void SpawnMapElements()
     {
         GameObject roomsParent = new GameObject();
         roomsParent.name = "Rooms";
         GameObject doorsParent = new GameObject();
         doorsParent.name = "Doors";
+        GameObject wallParent = new GameObject();
+        wallParent.name = "Walls";
         
+        
+        // Rooms
         foreach (Room room in rooms)
         {
-            GameObject roomTile = Instantiate(roomPrefab);
-            Vector3 roomTileSize = roomTile.GetComponent<PrefabBounds>().GetSize();
-            room.SetPosition(new Vector2(roomTileSize.x * room.GetCoords().x, roomTileSize.z * room.GetCoords().y));
-            roomTile.transform.position = new Vector3(room.GetPosition().x, 0.0f, room.GetPosition().y);
-            roomTile.transform.SetParent(roomsParent.transform);
+            room.tile = Instantiate(roomPrefab);
+            room.tileSize = room.tile.GetComponent<PrefabBounds>().GetSize();
+            room.tile.transform.position = new Vector3(room.tileSize.x * room.GetCoords().x, 0.0f, room.tileSize.z * room.GetCoords().y);
+            room.tile.transform.SetParent(roomsParent.transform);
         }
-
+        
+        // Doors
         foreach (Door door in doors)
         {
-            GameObject doorTile = Instantiate(doorPrefab);
             door.UpdatePosition();
-            Vector3 doorTilePos = new Vector3(door.GetPosition().x, 0.0f, door.GetPosition().y);
-            doorTile.transform.position = doorTilePos;
-            doorTile.transform.SetParent(doorsParent.transform);
+            door.tile = Instantiate(doorPrefab);
+            door.tile.transform.position = new Vector3(door.GetPosition().x, 0.0f, door.GetPosition().y);
+            Direction orientation = GetNeighborDirection(door.GetRoomA(), door.GetRoomB());
+
+            if (orientation == Direction.NORTH | orientation == Direction.SOUTH)
+            {
+                door.tile.transform.Rotate(0.0f, 90.0f, 0.0f);
+            }
+
+            int directionIndex = DIRECTIONS.FindIndex(d => d == orientation);
+            door.GetRoomA().spawnedWalls.Add(orientation);
+            door.GetRoomB().spawnedWalls.Add(DIRECTIONS[(directionIndex + 2) % 4]);
+            door.tile.transform.SetParent(doorsParent.transform);
+        }
+
+        // Walls
+        // TO FIX : 2 walls can spawn at same location if 2 rooms are neighbors without being connected by a door
+        foreach (Room room in rooms)
+        {
+            foreach (Direction orientation in DIRECTIONS)
+            {
+                if(room.spawnedWalls.Contains(orientation))
+                {
+                    continue;
+                }
+                
+                GameObject wallObject = Instantiate(wallPrefab);
+                Vector3 position = Vector3.zero;
+                Vector3 rotation = Vector3.zero;
+                
+                switch (orientation)
+                {
+                    case Direction.NORTH:
+                        position = new Vector3(room.tile.transform.position.x, 0.0f, room.tile.transform.position.z + room.tileSize.z / 2);
+                        rotation = new Vector3(0.0f, 90.0f, 0.0f);
+                        break;
+                    
+                    case Direction.EAST:
+                        position = new Vector3(room.tile.transform.position.x + room.tileSize.x / 2, 0.0f, room.tile.transform.position.z);
+                        break;
+                    
+                    case Direction.SOUTH:
+                        position = new Vector3(room.tile.transform.position.x, 0.0f, room.tile.transform.position.z - room.tileSize.z / 2);
+                        rotation = new Vector3(0.0f, 90.0f, 0.0f);
+                        break;
+                    
+                    case Direction.WEST:
+                        position = new Vector3(room.tile.transform.position.x - room.tileSize.x / 2, 0.0f, room.tile.transform.position.z);
+                        break;
+                }
+                
+                wallObject.transform.position = position;
+                wallObject.transform.Rotate(rotation);
+                wallObject.transform.SetParent(wallParent.transform);
+            }
+        }
+    }
+
+    // Get the direction of a neighboring room in relation to the current room.
+    // TO FIX : Add the case where the 2 tested rooms are not neighbors (currently should never happen).
+    private Direction GetNeighborDirection(Room myRoom, Room neighbor)
+    {
+        Vector2Int offset = neighbor.GetCoords() - myRoom.GetCoords();
+        
+        if (offset == new Vector2Int(0, 1))
+        {
+            return Direction.NORTH;
+        }
+        else if (offset == new Vector2Int(1, 0))
+        {
+            return Direction.EAST;
+        }
+        else if (offset == new Vector2Int(0, -1))
+        {
+            return Direction.SOUTH;
+        }
+        else
+        {
+            return Direction.WEST;
         }
     }
 }
