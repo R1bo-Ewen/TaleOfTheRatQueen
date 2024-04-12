@@ -9,11 +9,27 @@ public class MapGeneration : MonoBehaviour
 {
     [SerializeField] private Vector2Int mapSize = new Vector2Int(20, 20);     // Virtual map grid size
     [SerializeField, Range(5, 50)] private int nbRoomMax = 10;               // Maximum number of rooms
-    [SerializeField] private GameObject roomPrefab;
+
+    [Header("========== PREFABS ====================")]
     [SerializeField] private GameObject wallPrefab;
     [SerializeField] private GameObject doorPrefab;
+    [SerializeField] private GameObject defaultRoomPrefab;
+    [SerializeField] private List<GameObject> kitchenPrefabs;
+    [SerializeField] private List<GameObject> bedRoomPrefabs;
+    [SerializeField] private List<GameObject> bigRoomPrefabs;
+
     private bool[,] mapGrid;                                                  // Virtual map grid
     private List<Room> rooms;
+
+    public enum RoomType
+    {
+        CORRIDOR,
+        KITCHEN,
+        BEDROOM,
+        BIGROOM
+    }
+
+    private List<RoomType> roomsTypes;
     private List<Door> doors;
     
     public enum Direction
@@ -24,7 +40,7 @@ public class MapGeneration : MonoBehaviour
         WEST
     }
 
-    public List<Direction> DIRECTIONS = Enum.GetValues(typeof(Direction)).Cast<Direction>().ToList();
+    [NonSerialized] public List<Direction> DIRECTIONS = Enum.GetValues(typeof(Direction)).Cast<Direction>().ToList();
 
     private void Start()
     {
@@ -38,6 +54,8 @@ public class MapGeneration : MonoBehaviour
         mapGrid = new bool[mapSize.x, mapSize.y];
         rooms = new List<Room>();
         doors = new List<Door>();
+
+        ShuffleRoomsTypes();
         
         Vector2Int firstRoomCoords = new Vector2Int(mapSize.x / 2, mapSize.y / 2);
         CreateRoom(firstRoomCoords);
@@ -50,12 +68,45 @@ public class MapGeneration : MonoBehaviour
         SpawnMapElements();
     }
 
+    // Shuffle the room types
+    private void ShuffleRoomsTypes()
+    {
+        // Add the special room types to the list
+        roomsTypes = new List<RoomType>
+        {
+            RoomType.KITCHEN,
+            RoomType.BEDROOM,
+            RoomType.BIGROOM
+        };
+
+        // Fill the list with default room type
+        for(int i = roomsTypes.Count; i < nbRoomMax; i++)
+        {
+            roomsTypes.Add(RoomType.CORRIDOR);
+        }
+
+        Shuffle(roomsTypes);
+    }
+    
+    // Shuffle a list
+    private void Shuffle<T> (List<T> list)
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            T temp = list[i];
+            int randomIndex = Random.Range(i, list.Count);
+            list[i] = list[randomIndex];
+            list[randomIndex] = temp;
+        }
+    }
+
     // Create a room and update the map grid and the list of rooms.
     private Room CreateRoom(Vector2Int coords)
     {
-        Room room = new Room(coords);
+        Room room = new Room(coords, roomsTypes.Last());
         rooms.Add(room);
         mapGrid[coords.x, coords.y] = true;
+        roomsTypes.RemoveAt(roomsTypes.Count - 1);
         return room;
     }
 
@@ -158,6 +209,24 @@ public class MapGeneration : MonoBehaviour
         // Rooms
         foreach (Room room in rooms)
         {
+            GameObject roomPrefab;
+
+            switch (room.type)
+            {
+                case RoomType.KITCHEN:
+                    roomPrefab = kitchenPrefabs[Random.Range(0, kitchenPrefabs.Count)];
+                    break;
+                case RoomType.BEDROOM:
+                    roomPrefab = bedRoomPrefabs[Random.Range(0, bedRoomPrefabs.Count)];
+                    break;
+                case RoomType.BIGROOM:
+                    roomPrefab = bigRoomPrefabs[Random.Range(0, bigRoomPrefabs.Count)];
+                    break;
+                default:
+                    roomPrefab = defaultRoomPrefab;
+                    break;
+            }
+
             room.tile = Instantiate(roomPrefab);
             room.tileSize = room.tile.GetComponent<PrefabBounds>().GetSize();
             room.tile.transform.position = new Vector3(room.tileSize.x * room.GetCoords().x, 0.0f, room.tileSize.z * room.GetCoords().y);
@@ -249,4 +318,5 @@ public class MapGeneration : MonoBehaviour
             return Direction.WEST;
         }
     }
+
 }

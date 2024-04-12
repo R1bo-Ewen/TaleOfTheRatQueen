@@ -246,8 +246,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapSize: {x: 20, y: 20}
   nbRoomMax: 10
-  roomPrefab: {fileID: 7780254857179455800, guid: 711ab10a7ec3ca4428fb3144adfbc23b, type: 3}
-  doorPrefab: {fileID: 1386966703214967639, guid: ee6d3ce34c2c36149a2941178649f384, type: 3}
+  wallPrefab: {fileID: 5752702330304392158, guid: 13409c51666068d4a98be7fee7e05dce, type: 3}
+  doorPrefab: {fileID: 5752702330304392158, guid: fd8718f031e6cfa48bc0b49f9ab0edd1, type: 3}
+  defaultRoomPrefab: {fileID: 6478756434531161961, guid: f89a38033c2a8a340ab1587c09aae0a9, type: 3}
+  kitchenPrefabs:
+  - {fileID: 4969056205340727898, guid: 7a530872666641a41b8c8fabfc01b60f, type: 3}
+  - {fileID: 4969056205340727898, guid: 56fe727370d0a914bb72d74ee27ffdf8, type: 3}
+  - {fileID: 4969056205340727898, guid: 25253eb919587a540a7ffa9b1e07a956, type: 3}
+  bedRoomPrefabs:
+  - {fileID: 7241302759481292195, guid: e68420ea0fd923b418499a217e43a16f, type: 3}
+  - {fileID: 7241302759481292195, guid: 355afb30d1f2ba04ca79c4d81838d2ab, type: 3}
+  - {fileID: 7241302759481292195, guid: bc95dbc669e629c4281621c8d11d8646, type: 3}
+  bigRoomPrefabs:
+  - {fileID: 2485540617445524943, guid: a6c005f9b8aac27408d39ce2f14f63ce, type: 3}
+  - {fileID: 2485540617445524943, guid: db94fba62e2ba8d47a890e8b3c47d3dc, type: 3}
+  - {fileID: 2485540617445524943, guid: ff7414e6f0502e3488fdd4708583a941, type: 3}
 --- !u!4 &1640515889
 Transform:
   m_ObjectHideFlags: 0
