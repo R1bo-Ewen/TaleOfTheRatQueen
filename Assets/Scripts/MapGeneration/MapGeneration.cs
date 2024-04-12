@@ -41,6 +41,7 @@ public class MapGeneration : MonoBehaviour
     }
 
     [NonSerialized] public List<Direction> DIRECTIONS = Enum.GetValues(typeof(Direction)).Cast<Direction>().ToList();
+    [NonSerialized] public Vector3 spawnLocation = Vector3.zero;
 
     private void Start()
     {
@@ -66,6 +67,8 @@ public class MapGeneration : MonoBehaviour
         }
         
         SpawnMapElements();
+        SetSpawnLocation();
+        print("Map generated");
     }
 
     // Shuffle the room types
@@ -319,4 +322,8 @@ public class MapGeneration : MonoBehaviour
         }
     }
 
+    private void SetSpawnLocation()
+    {
+        spawnLocation = rooms[0].tile.transform.position;
+    }
 }
