@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class SpriteBillboardScript : MonoBehaviour
 {
     // Update is called once per frame
     [SerializeField] private bool freezeXZAxis = true;

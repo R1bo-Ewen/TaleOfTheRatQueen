@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 792728181955151546}
   - component: {fileID: 4862747412908480948}
   - component: {fileID: 1974086325400149453}
-  - component: {fileID: 2003068863971202845}
+  - component: {fileID: 8235116542644139959}
   m_Layer: 0
   m_Name: GFX
   m_TagString: Untagged
@@ -153,7 +153,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2003068863971202845
+--- !u!114 &8235116542644139959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,13 +162,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5127288058384794220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7f4f1af6c05d0845ac527d0bf605e30, type: 3}
+  m_Script: {fileID: 11500000, guid: 42fe3019e485b1342ad3066187dd5519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backAngle: 36
-  backThreeAngle: 72
-  sideAngle: 108
-  sideThreeAngle: 144
+  backAngle: 65
+  sideAngle: 155
   mainTransform: {fileID: 5069703771280737960}
   animator: {fileID: 1974086325400149453}
   spriteRenderer: {fileID: 792728181955151546}
