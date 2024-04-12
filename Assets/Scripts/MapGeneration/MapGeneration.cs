@@ -15,7 +15,7 @@ public class MapGeneration : MonoBehaviour
     [SerializeField] private GameObject doorPrefab;
     [SerializeField] private GameObject defaultRoomPrefab;
     [SerializeField] private List<GameObject> kitchenPrefabs;
-    [SerializeField] private List<GameObject> bedRoomPrefabs;
+    [SerializeField] private List<GameObject> bedroomPrefabs;
     [SerializeField] private List<GameObject> bigRoomPrefabs;
 
     private bool[,] mapGrid;                                                  // Virtual map grid
@@ -217,7 +217,7 @@ public class MapGeneration : MonoBehaviour
                     roomPrefab = kitchenPrefabs[Random.Range(0, kitchenPrefabs.Count)];
                     break;
                 case RoomType.BEDROOM:
-                    roomPrefab = bedRoomPrefabs[Random.Range(0, bedRoomPrefabs.Count)];
+                    roomPrefab = bedroomPrefabs[Random.Range(0, bedroomPrefabs.Count)];
                     break;
                 case RoomType.BIGROOM:
                     roomPrefab = bigRoomPrefabs[Random.Range(0, bigRoomPrefabs.Count)];
