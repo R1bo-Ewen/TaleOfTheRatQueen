@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1146455696279686432}
   m_Layer: 0
-  m_Name: Kitchen
+  m_Name: KitchenB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,7 +97,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 332b2978409bba04eaab26de88a432e2, type: 2}
+  - {fileID: 2100000, guid: dcbbb15fb8eb66740aabcc9f17100e88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

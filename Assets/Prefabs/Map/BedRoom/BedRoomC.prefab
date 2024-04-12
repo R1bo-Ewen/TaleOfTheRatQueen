@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2400783028594820039}
   - component: {fileID: 526071453100377934}
   m_Layer: 0
-  m_Name: BedRoom
+  m_Name: BedRoomC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ea7941cbe1710fa449d8fd7f209083cd, type: 2}
+  - {fileID: 2100000, guid: d01282cb9fc6ca9479629e74e936dbec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
