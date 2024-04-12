@@ -11,6 +11,26 @@ public class CollectibleFood : MonoBehaviour
     private bool inFoodRange;
     private GameObject foodGameObject;
     [SerializeField] private GameObject ratPrefab;
+
+    void Start()
+    {
+        for (int i = 0; i < nbOfRats; i++)
+        {
+            GameObject Rat = Instantiate(ratPrefab, new Vector3(transform.position.x + Random.Range(0f,1f), 0,transform.position.z + Random.Range(0f,1f)), transform.rotation);
+            Rat.GetComponent<RatControler>().TransformPlayer = transform;
+            if (i == 0)
+            {
+                Rat.GetComponent<RatControler>().randomX = 0;
+                Rat.GetComponent<RatControler>().randomZ = 0;
+            }
+            else
+            {
+                Rat.GetComponent<RatControler>().randomX = Random.Range(-1f,1f);
+                Rat.GetComponent<RatControler>().randomZ = Random.Range(-1f,1f);
+            }
+            Rat.transform.SetParent(transform.parent);
+        }
+    }
     public void OnTriggerEnter(Collider Col)
     {
         if(Col.gameObject.GetComponent<Food>() != null);
@@ -43,7 +63,10 @@ public class CollectibleFood : MonoBehaviour
                 inFoodRange = false;
                 inFoodRangeTime = 0f;
                 GameObject Rat = Instantiate(ratPrefab, new Vector3(transform.position.x + Random.Range(0f,1f), 0,transform.position.z + Random.Range(0f,1f)), transform.rotation);
-                Rat.transform.SetParent(transform);
+                Rat.GetComponent<RatControler>().TransformPlayer = transform;
+                Rat.GetComponent<RatControler>().randomX = Random.Range(-1f,1f);
+                Rat.GetComponent<RatControler>().randomZ = Random.Range(-1f,1f);
+                Rat.transform.SetParent(transform.parent);
                 foodGameObject.GetComponent<Food>().VFX.SetActive(false);
                 Destroy(foodGameObject);
             }

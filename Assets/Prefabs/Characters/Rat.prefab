@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5069703771280737960}
+  - component: {fileID: 686090307966615520}
   m_Layer: 0
   m_Name: Rat
   m_TagString: Untagged
@@ -32,6 +33,18 @@ Transform:
   - {fileID: 2049417151270644829}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &686090307966615520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4057719598709570290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2015ffd8536e00c44b8f8c23f8c0bd8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5127288058384794220
 GameObject:
   m_ObjectHideFlags: 0
