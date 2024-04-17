@@ -400,7 +400,7 @@ MonoBehaviour:
   defaultRoomPrefab: {fileID: 6478756434531161961, guid: f89a38033c2a8a340ab1587c09aae0a9, type: 3}
   kitchenPrefabs:
   - {fileID: 4969056205340727898, guid: 7a530872666641a41b8c8fabfc01b60f, type: 3}
-  - {fileID: 4969056205340727898, guid: 56fe727370d0a914bb72d74ee27ffdf8, type: 3}
+  - {fileID: 4969056205340727898, guid: c014490ad284fc749ae097a9b3c23601, type: 3}
   - {fileID: 4969056205340727898, guid: 25253eb919587a540a7ffa9b1e07a956, type: 3}
   bedroomPrefabs:
   - {fileID: 7241302759481292195, guid: e68420ea0fd923b418499a217e43a16f, type: 3}
