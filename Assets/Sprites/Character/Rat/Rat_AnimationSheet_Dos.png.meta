@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,27 +34,27 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -95,18 +95,1426 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1974
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa54361237897d40b9134724cf34555
+      internalID: -1656998390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1974
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31261798d29b644499bcd4831559635
+      internalID: 1376358166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1974
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63f9ef4a21fef745a746537a9817773
+      internalID: 1106959119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1974
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9431ee73a2950d64886a47b65f759e66
+      internalID: -1477203798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1974
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf29b4d4da7c1764b962e7595807942d
+      internalID: -891721477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_5
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1974
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163be14794f9d6940b449bad68f55c2c
+      internalID: -1986722926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_6
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1974
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3ad9db40bf355479196d9cc824b741
+      internalID: -93061794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_7
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1974
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd5e58cbb7bce044b32a11919b214c0
+      internalID: -1542231730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1692
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf3ca9d0ad195340b5f149a3842ca6d
+      internalID: -1455637494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1692
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fb1f320fa34314c82178aca4307b6a
+      internalID: -224003188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1692
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef4216f0f2269e41be2f963a2c516bb
+      internalID: -342189919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_11
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1692
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308007d64e74c6542bb572f93e572425
+      internalID: 446273842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1692
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facf850df859e9c46b05a1b9793cebee
+      internalID: -1172944299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1692
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d14d3fa4c59ab4494e712d3a9fcb01
+      internalID: 1992584529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_14
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1692
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105b33122b62c6b4a8e01b4cb99afc6a
+      internalID: -1685426434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_15
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1692
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274c54e4406e8404f920ad34dbd3c56a
+      internalID: -611060248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1410
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bfbe324582fa442bb0730ac4b7ace1
+      internalID: 1336069323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1410
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a56ac2f1db158a4ebc4d80bbdff2e1b
+      internalID: -1648198661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1410
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b008727dc2907424392ad2bc641dc767
+      internalID: -335022718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1410
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa6f24262749474283990be291bd071
+      internalID: 793993392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1410
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d382e66ca9ab848a2c2d6dd8c435fa
+      internalID: 1200162627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_21
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1410
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c4b8dedd6fb424ca523c7af6d2fd9a
+      internalID: 646060922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_22
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1410
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3f3d7f4b72ad44b9bbf87aca88dc76
+      internalID: -970725964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_23
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1410
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f82032873a097a47a35352a0ab9f80f
+      internalID: 745135797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1128
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e009d4a2dda8d44b3bf852595f24f6
+      internalID: -1608568503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1128
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fd132f323721f48ac30689d6674d29
+      internalID: 1273345087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1128
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258a75bda1e146246a3f9bf27ca98d26
+      internalID: -1716876007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_27
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1128
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb756ec995231ce469dda8ef62560d2d
+      internalID: 235906749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_28
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1128
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39538f4621d3304199f4ea681c9bd1a
+      internalID: -162441694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_29
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1128
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c745261cb4a38b458d2a9439e26d5c9
+      internalID: -2050547100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_30
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1128
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9894e160e77568144b7abfff88a3ed4e
+      internalID: 1049946999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_31
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1128
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f34c9dc63814384eb49db4e7553a7fe
+      internalID: -798617569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 846
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baac60a175fd2244bbf2399910b5719
+      internalID: -954951349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 846
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc934f7fc6aa664b998c4402a1cef46
+      internalID: -931074522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_34
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 846
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cca1194fdfd6514885d4df6786b97ec
+      internalID: 43285835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_35
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 846
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af3927f13d73a444bc97a894a108981
+      internalID: -409712583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_36
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 846
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7f1e0fa1c8cd04d89ff7900e3ab5c3
+      internalID: 1770610563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_37
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 846
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1109dc155d9f545be3dfae49aa86c1
+      internalID: -1652698946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_38
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 846
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76c44d23e917ae458ac78ad40ae6aaf
+      internalID: -786213444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_39
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 846
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bfe2b6ab0bf254096586d6e7f1291b
+      internalID: -812291996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00457f4944d1a3243913c619e4c2f9dd
+      internalID: -1385785995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_41
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 564
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3166e92eeffa14ba02fc5a45a93f6e
+      internalID: -653133377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_42
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 564
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828bf4fe58e64ce449db65a37d51cd05
+      internalID: -1653312434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_43
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 564
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3b779ee64665b4c9c9fd90034c28cc
+      internalID: -804324740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_44
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 564
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e973c45cb02a39449fff79344b872ba
+      internalID: 1260633927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_45
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 564
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adf4e63b766014429bdf550df52c8cc
+      internalID: -272718764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_46
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 564
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f6c5d4159a9f448a1b310dc43926f3
+      internalID: 1313857212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_47
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 564
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2b6b47d61d9eb48a92b89df7fb4cbb
+      internalID: 805778123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4e0b9e45a7eae4e863ba9d262b61c9
+      internalID: 675862950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_49
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 282
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3600a9e9c25fe641814fcb1633bbb48
+      internalID: -1923999690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_50
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 282
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd73fa85aa1a5124bbce437254b23a0f
+      internalID: 1672515124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_51
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 282
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2558b2499f91d44bfbbf3b111897c5
+      internalID: 63399078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_52
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 282
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37eda91965a2eb04abb0a6c09b393232
+      internalID: 127723250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_53
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 282
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e769f3cb9d48714c8facae2180c8e17
+      internalID: -1801297561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_54
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 282
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d396d67c3e799a841b015b6da1eef54e
+      internalID: -1691568579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_55
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 282
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc3afcba482be94ab96d3741894bf41
+      internalID: -1268409435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b74006d318abc4e944ddaf174ba77b
+      internalID: 759529403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_57
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6024ba70b3971c4eb57be62241b2cfb
+      internalID: 2012757853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_58
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c12dbb892326624ebc9c9f48555df9c
+      internalID: 1903144759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_59
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e0bf61eeefaec478810b8fbe70e33c
+      internalID: 314663328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_60
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbc59c0b3986484bbb7423e48873836
+      internalID: 416641704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_61
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c196014259c2bc847a11bc734e7e4a1c
+      internalID: -87372930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_62
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ea8cd7a735df949b10e9cfb6db937e
+      internalID: -552315809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_AnimationSheet_Dos_63
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 600
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e788bd420c2f314d8f56aff12853ebf
+      internalID: -25864727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rat_AnimationSheet_Dos_0: -1656998390
+      Rat_AnimationSheet_Dos_1: 1376358166
+      Rat_AnimationSheet_Dos_10: -342189919
+      Rat_AnimationSheet_Dos_11: 446273842
+      Rat_AnimationSheet_Dos_12: -1172944299
+      Rat_AnimationSheet_Dos_13: 1992584529
+      Rat_AnimationSheet_Dos_14: -1685426434
+      Rat_AnimationSheet_Dos_15: -611060248
+      Rat_AnimationSheet_Dos_16: 1336069323
+      Rat_AnimationSheet_Dos_17: -1648198661
+      Rat_AnimationSheet_Dos_18: -335022718
+      Rat_AnimationSheet_Dos_19: 793993392
+      Rat_AnimationSheet_Dos_2: 1106959119
+      Rat_AnimationSheet_Dos_20: 1200162627
+      Rat_AnimationSheet_Dos_21: 646060922
+      Rat_AnimationSheet_Dos_22: -970725964
+      Rat_AnimationSheet_Dos_23: 745135797
+      Rat_AnimationSheet_Dos_24: -1608568503
+      Rat_AnimationSheet_Dos_25: 1273345087
+      Rat_AnimationSheet_Dos_26: -1716876007
+      Rat_AnimationSheet_Dos_27: 235906749
+      Rat_AnimationSheet_Dos_28: -162441694
+      Rat_AnimationSheet_Dos_29: -2050547100
+      Rat_AnimationSheet_Dos_3: -1477203798
+      Rat_AnimationSheet_Dos_30: 1049946999
+      Rat_AnimationSheet_Dos_31: -798617569
+      Rat_AnimationSheet_Dos_32: -954951349
+      Rat_AnimationSheet_Dos_33: -931074522
+      Rat_AnimationSheet_Dos_34: 43285835
+      Rat_AnimationSheet_Dos_35: -409712583
+      Rat_AnimationSheet_Dos_36: 1770610563
+      Rat_AnimationSheet_Dos_37: -1652698946
+      Rat_AnimationSheet_Dos_38: -786213444
+      Rat_AnimationSheet_Dos_39: -812291996
+      Rat_AnimationSheet_Dos_4: -891721477
+      Rat_AnimationSheet_Dos_40: -1385785995
+      Rat_AnimationSheet_Dos_41: -653133377
+      Rat_AnimationSheet_Dos_42: -1653312434
+      Rat_AnimationSheet_Dos_43: -804324740
+      Rat_AnimationSheet_Dos_44: 1260633927
+      Rat_AnimationSheet_Dos_45: -272718764
+      Rat_AnimationSheet_Dos_46: 1313857212
+      Rat_AnimationSheet_Dos_47: 805778123
+      Rat_AnimationSheet_Dos_48: 675862950
+      Rat_AnimationSheet_Dos_49: -1923999690
+      Rat_AnimationSheet_Dos_5: -1986722926
+      Rat_AnimationSheet_Dos_50: 1672515124
+      Rat_AnimationSheet_Dos_51: 63399078
+      Rat_AnimationSheet_Dos_52: 127723250
+      Rat_AnimationSheet_Dos_53: -1801297561
+      Rat_AnimationSheet_Dos_54: -1691568579
+      Rat_AnimationSheet_Dos_55: -1268409435
+      Rat_AnimationSheet_Dos_56: 759529403
+      Rat_AnimationSheet_Dos_57: 2012757853
+      Rat_AnimationSheet_Dos_58: 1903144759
+      Rat_AnimationSheet_Dos_59: 314663328
+      Rat_AnimationSheet_Dos_6: -93061794
+      Rat_AnimationSheet_Dos_60: 416641704
+      Rat_AnimationSheet_Dos_61: -87372930
+      Rat_AnimationSheet_Dos_62: -552315809
+      Rat_AnimationSheet_Dos_63: -25864727
+      Rat_AnimationSheet_Dos_7: -1542231730
+      Rat_AnimationSheet_Dos_8: -1455637494
+      Rat_AnimationSheet_Dos_9: -224003188
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
