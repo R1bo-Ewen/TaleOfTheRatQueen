@@ -105,8 +105,8 @@ if __name__ == "__main__":
 
         sheet: AnimationSheetGenerator = AnimationSheetGenerator(
             len(files),
-            RESIZE_WIDTH,
-            int(RESIZE_WIDTH * (sample_file.height / sample_file.width)),
+            sample_file.width,
+            sample_file.height,
             sample_file.mode
         )
 
