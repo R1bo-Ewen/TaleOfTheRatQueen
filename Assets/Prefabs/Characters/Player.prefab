@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217456867473463668}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07232505, y: 0.8220797, z: -0.10722873, w: 0.5544872}
+  m_LocalRotation: {x: 0.07232506, y: 0.8220797, z: -0.10722873, w: 0.5544872}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -752,7 +752,7 @@ MonoBehaviour:
   - m_Height: 0.91
     m_Radius: 4.65
   - m_Height: 0.1
-    m_Radius: 4
+    m_Radius: 2.62
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 980400824143533819}
@@ -909,8 +909,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a5f9d62f0fc53f41a17236bf3aaf9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nbOfRats: 1
-  ratPrefab: {fileID: 0}
+  nbOfRats: 3
+  ratPrefab: {fileID: 4057719598709570290, guid: cfc3fd8ca3e263a42b952e1fc9136c7c, type: 3}
 --- !u!1 &8934440523701126879
 GameObject:
   m_ObjectHideFlags: 0
