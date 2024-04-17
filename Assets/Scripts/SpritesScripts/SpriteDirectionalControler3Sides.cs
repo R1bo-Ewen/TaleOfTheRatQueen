@@ -25,11 +25,11 @@ public class SpriteDirection3Side : MonoBehaviour
 
         if (signedAngle < 0)
         {
-            spriteRenderer.flipX = false;
+            spriteRenderer.flipX = true;
         }
         else
         {
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = false;
         }
 
         if (angle < backAngle)
