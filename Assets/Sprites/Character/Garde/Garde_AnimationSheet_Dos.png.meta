@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -95,18 +95,898 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 4327
+        width: 841
+        height: 1073
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7318850017784434bb717336a48d405c
+      internalID: -540171649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4327
+        width: 841
+        height: 1073
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394804798eaa87b45bb28b028916d00e
+      internalID: -823715082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_2
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 4327
+        width: 841
+        height: 1073
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185021b2091bc554a82052cf23e407ca
+      internalID: 2060542949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_3
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4327
+        width: 841
+        height: 1073
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05e66e0ecf3cfb46ac09678701b0efb
+      internalID: -2106247909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_4
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 4327
+        width: 841
+        height: 1073
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae8361525cc2af4ab8faaa14ead59e3
+      internalID: -1769057818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_5
+      rect:
+        serializedVersion: 2
+        x: 4637
+        y: 4323
+        width: 842
+        height: 1077
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dba34b962982c54d8939947b68c672e
+      internalID: -2144038816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_6
+      rect:
+        serializedVersion: 2
+        x: 5557
+        y: 4323
+        width: 842
+        height: 1077
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4e18efba2faf444a574cefa646f518
+      internalID: -2067068072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_7
+      rect:
+        serializedVersion: 2
+        x: 6477
+        y: 4323
+        width: 842
+        height: 1077
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabd99ee522b42848831e426e37d075e
+      internalID: 1959709549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3243
+        width: 842
+        height: 1077
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a3f35487db7ac4dbfd5d371c430c1f
+      internalID: -625695211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_9
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 3243
+        width: 842
+        height: 1077
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50a5a4b643d451429885ba44e994027
+      internalID: 1319658633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_10
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 3247
+        width: 841
+        height: 1073
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4136fe7d30b5c0d4d9e5f69fb3e4354a
+      internalID: 1306086325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_11
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3247
+        width: 841
+        height: 1073
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4235a3c2426fd5c48a36545a921db736
+      internalID: 1046888337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_12
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 3247
+        width: 841
+        height: 1073
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42642b937f0bea747b26898f5a8be19d
+      internalID: 628968853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_13
+      rect:
+        serializedVersion: 2
+        x: 4640
+        y: 3247
+        width: 841
+        height: 1073
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e881c788b02b38c4a9ded93fb025a497
+      internalID: 573596588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_14
+      rect:
+        serializedVersion: 2
+        x: 5560
+        y: 3247
+        width: 841
+        height: 1073
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90634be0badbf394a8e32754111b8bd9
+      internalID: 778257357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_15
+      rect:
+        serializedVersion: 2
+        x: 6483
+        y: 3254
+        width: 841
+        height: 1057
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c55f6dd26eba242923527cebffa913
+      internalID: -2073035427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2174
+        width: 841
+        height: 1057
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43e6e9548fc9e84ba488ec3ee404780
+      internalID: -2061129222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_17
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 2174
+        width: 841
+        height: 1057
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45394061d5f941b45bcb808fc33a655f
+      internalID: -1033939316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_18
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 2174
+        width: 841
+        height: 1057
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d50e59a008aaf448af2d8e21815449
+      internalID: -1220077782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_19
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 2174
+        width: 841
+        height: 1057
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e5207a966d10d4b935c9d1e1a18ccf
+      internalID: 740672372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_20
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 2160
+        width: 839
+        height: 1074
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f0019caaa02f54cb4a594127bcd667
+      internalID: 735348239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_21
+      rect:
+        serializedVersion: 2
+        x: 4639
+        y: 2160
+        width: 839
+        height: 1074
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392c0ef0e915c5342b9c5d968ec1c16f
+      internalID: 1011979859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_22
+      rect:
+        serializedVersion: 2
+        x: 5559
+        y: 2160
+        width: 839
+        height: 1074
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce76e76f54f78214e940a904873c50ec
+      internalID: -1412160313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_23
+      rect:
+        serializedVersion: 2
+        x: 6479
+        y: 2160
+        width: 839
+        height: 1074
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2020e1d7f24266b42a143aaa8603c107
+      internalID: 1844072863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1080
+        width: 839
+        height: 1074
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d647913103ff04ab4ede2870420463
+      internalID: 540523187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_25
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1081
+        width: 841
+        height: 1060
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5323f197045ab4b82bf830eff743c6
+      internalID: -1234648777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_26
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1081
+        width: 841
+        height: 1060
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07780eee17de33648a96550eaaa34119
+      internalID: 496696971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_27
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1081
+        width: 841
+        height: 1060
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0133b15b7d07ff54d9a4ab19b56e8765
+      internalID: -119606827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_28
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1081
+        width: 841
+        height: 1060
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822740cbdb0d1324cb4ff33b56498ff6
+      internalID: 1994931276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_29
+      rect:
+        serializedVersion: 2
+        x: 4640
+        y: 1081
+        width: 841
+        height: 1060
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88db68f4f128bf946803afefc736c54a
+      internalID: -1891267115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_30
+      rect:
+        serializedVersion: 2
+        x: 5558
+        y: 1092
+        width: 845
+        height: 1062
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cca0963bcc6784a97f4afa9fdf936e
+      internalID: 423782080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_31
+      rect:
+        serializedVersion: 2
+        x: 6478
+        y: 1092
+        width: 845
+        height: 1062
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2492179d20e773147a03dbea23d03d93
+      internalID: -1737460767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_32
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 12
+        width: 845
+        height: 1062
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591fde6e59e003047b7aee7c0b01c617
+      internalID: 372549911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_33
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 12
+        width: 845
+        height: 1062
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7d9067d6c8c7b418b4d9097de4caee
+      internalID: 1702689821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_34
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 12
+        width: 845
+        height: 1062
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b300240ccd0f24392f48ad8a57495d
+      internalID: -790860985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_35
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 10
+        width: 841
+        height: 1070
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e3445ea91d4144d98c45b84254aebf
+      internalID: -186392427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_36
+      rect:
+        serializedVersion: 2
+        x: 3723
+        y: 10
+        width: 841
+        height: 1070
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ee8cd3b13718949ab182d9222bfd79
+      internalID: -1838080831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_37
+      rect:
+        serializedVersion: 2
+        x: 4643
+        y: 10
+        width: 841
+        height: 1070
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ac92ecff5913b46acf95442cffa441
+      internalID: 1882940417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_38
+      rect:
+        serializedVersion: 2
+        x: 5563
+        y: 10
+        width: 841
+        height: 1070
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae9f44d60818994793f11e4e1022454
+      internalID: 364431430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garde_AnimationSheet_Dos_39
+      rect:
+        serializedVersion: 2
+        x: 6483
+        y: 10
+        width: 841
+        height: 1070
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85976c27c9ba5c84388ca3071e91351b
+      internalID: -1662040246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Garde_AnimationSheet_Dos_0: -540171649
+      Garde_AnimationSheet_Dos_1: -823715082
+      Garde_AnimationSheet_Dos_10: 1306086325
+      Garde_AnimationSheet_Dos_11: 1046888337
+      Garde_AnimationSheet_Dos_12: 628968853
+      Garde_AnimationSheet_Dos_13: 573596588
+      Garde_AnimationSheet_Dos_14: 778257357
+      Garde_AnimationSheet_Dos_15: -2073035427
+      Garde_AnimationSheet_Dos_16: -2061129222
+      Garde_AnimationSheet_Dos_17: -1033939316
+      Garde_AnimationSheet_Dos_18: -1220077782
+      Garde_AnimationSheet_Dos_19: 740672372
+      Garde_AnimationSheet_Dos_2: 2060542949
+      Garde_AnimationSheet_Dos_20: 735348239
+      Garde_AnimationSheet_Dos_21: 1011979859
+      Garde_AnimationSheet_Dos_22: -1412160313
+      Garde_AnimationSheet_Dos_23: 1844072863
+      Garde_AnimationSheet_Dos_24: 540523187
+      Garde_AnimationSheet_Dos_25: -1234648777
+      Garde_AnimationSheet_Dos_26: 496696971
+      Garde_AnimationSheet_Dos_27: -119606827
+      Garde_AnimationSheet_Dos_28: 1994931276
+      Garde_AnimationSheet_Dos_29: -1891267115
+      Garde_AnimationSheet_Dos_3: -2106247909
+      Garde_AnimationSheet_Dos_30: 423782080
+      Garde_AnimationSheet_Dos_31: -1737460767
+      Garde_AnimationSheet_Dos_32: 372549911
+      Garde_AnimationSheet_Dos_33: 1702689821
+      Garde_AnimationSheet_Dos_34: -790860985
+      Garde_AnimationSheet_Dos_35: -186392427
+      Garde_AnimationSheet_Dos_36: -1838080831
+      Garde_AnimationSheet_Dos_37: 1882940417
+      Garde_AnimationSheet_Dos_38: 364431430
+      Garde_AnimationSheet_Dos_39: -1662040246
+      Garde_AnimationSheet_Dos_4: -1769057818
+      Garde_AnimationSheet_Dos_5: -2144038816
+      Garde_AnimationSheet_Dos_6: -2067068072
+      Garde_AnimationSheet_Dos_7: 1959709549
+      Garde_AnimationSheet_Dos_8: -625695211
+      Garde_AnimationSheet_Dos_9: 1319658633
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

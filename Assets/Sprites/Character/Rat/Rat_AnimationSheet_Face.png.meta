@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -100,12 +100,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1974
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 403
+        y: 4574
+        width: 424
+        height: 502
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,12 +121,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_1
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1974
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1763
+        y: 4574
+        width: 424
+        height: 502
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,12 +142,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_2
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1974
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3123
+        y: 4576
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_3
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 1974
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4483
+        y: 4576
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_4
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 1974
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5844
+        y: 4575
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_5
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1974
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7204
+        y: 4575
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_6
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 1974
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8563
+        y: 4574
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_7
       rect:
         serializedVersion: 2
-        x: 4200
-        y: 1974
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9923
+        y: 4574
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1692
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 404
+        y: 3935
+        width: 426
+        height: 505
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_9
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1692
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1764
+        y: 3935
+        width: 426
+        height: 505
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -310,12 +310,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_10
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1692
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3123
+        y: 3934
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -331,12 +331,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_11
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 1692
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4483
+        y: 3934
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -352,12 +352,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_12
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 1692
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5844
+        y: 3935
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -373,12 +373,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_13
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1692
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7204
+        y: 3935
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -394,12 +394,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_14
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 1692
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8563
+        y: 3936
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -415,12 +415,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_15
       rect:
         serializedVersion: 2
-        x: 4200
-        y: 1692
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9923
+        y: 3936
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,12 +436,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1410
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 403
+        y: 3294
+        width: 424
+        height: 502
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,12 +457,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_17
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1410
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1763
+        y: 3294
+        width: 424
+        height: 502
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,12 +478,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_18
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1410
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3123
+        y: 3296
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -499,12 +499,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_19
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 1410
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4483
+        y: 3296
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -520,12 +520,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_20
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 1410
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5844
+        y: 3295
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,12 +541,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_21
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1410
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7204
+        y: 3295
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -562,12 +562,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_22
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 1410
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8563
+        y: 3294
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -583,12 +583,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_23
       rect:
         serializedVersion: 2
-        x: 4200
-        y: 1410
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9923
+        y: 3294
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -604,12 +604,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1128
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 404
+        y: 2655
+        width: 426
+        height: 505
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -625,12 +625,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_25
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1128
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1764
+        y: 2655
+        width: 426
+        height: 505
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -646,12 +646,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_26
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1128
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3123
+        y: 2654
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -667,12 +667,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_27
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 1128
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4483
+        y: 2654
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -688,12 +688,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_28
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 1128
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5844
+        y: 2655
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -709,12 +709,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_29
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1128
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7204
+        y: 2655
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -730,12 +730,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_30
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 1128
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8563
+        y: 2656
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -751,12 +751,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_31
       rect:
         serializedVersion: 2
-        x: 4200
-        y: 1128
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9923
+        y: 2656
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -772,12 +772,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_32
       rect:
         serializedVersion: 2
-        x: 0
-        y: 846
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 403
+        y: 2014
+        width: 424
+        height: 502
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -793,12 +793,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_33
       rect:
         serializedVersion: 2
-        x: 600
-        y: 846
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1763
+        y: 2014
+        width: 424
+        height: 502
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -814,12 +814,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_34
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 846
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3123
+        y: 2016
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -835,12 +835,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_35
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 846
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4483
+        y: 2016
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -856,12 +856,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_36
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 846
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5844
+        y: 2015
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -877,12 +877,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_37
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 846
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7204
+        y: 2015
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -898,12 +898,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_38
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 846
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8563
+        y: 2014
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -919,12 +919,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_39
       rect:
         serializedVersion: 2
-        x: 4200
-        y: 846
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9923
+        y: 2014
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -940,12 +940,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_40
       rect:
         serializedVersion: 2
-        x: 0
-        y: 564
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 404
+        y: 1375
+        width: 426
+        height: 505
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -961,12 +961,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_41
       rect:
         serializedVersion: 2
-        x: 600
-        y: 564
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1764
+        y: 1375
+        width: 426
+        height: 505
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -982,12 +982,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_42
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 564
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3123
+        y: 1374
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1003,12 +1003,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_43
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 564
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4483
+        y: 1374
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1024,12 +1024,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_44
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 564
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5844
+        y: 1375
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1045,12 +1045,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_45
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 564
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7204
+        y: 1375
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1066,12 +1066,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_46
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 564
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8563
+        y: 1376
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1087,12 +1087,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_47
       rect:
         serializedVersion: 2
-        x: 4200
-        y: 564
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9923
+        y: 1376
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1108,12 +1108,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 282
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 403
+        y: 734
+        width: 424
+        height: 502
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1129,12 +1129,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_49
       rect:
         serializedVersion: 2
-        x: 600
-        y: 282
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1763
+        y: 734
+        width: 424
+        height: 502
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1150,12 +1150,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_50
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 282
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3123
+        y: 736
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1171,12 +1171,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_51
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 282
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4483
+        y: 736
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1192,12 +1192,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_52
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 282
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5844
+        y: 735
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1213,12 +1213,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_53
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 282
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7204
+        y: 735
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1234,12 +1234,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_54
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 282
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8563
+        y: 734
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1255,12 +1255,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_55
       rect:
         serializedVersion: 2
-        x: 4200
-        y: 282
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9923
+        y: 734
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1276,12 +1276,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_56
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 404
+        y: 95
+        width: 426
+        height: 505
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1297,12 +1297,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_57
       rect:
         serializedVersion: 2
-        x: 600
-        y: 0
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1764
+        y: 95
+        width: 426
+        height: 505
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1318,12 +1318,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_58
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 0
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3123
+        y: 94
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1339,12 +1339,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_59
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 0
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4483
+        y: 94
+        width: 426
+        height: 506
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1360,12 +1360,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_60
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 0
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5844
+        y: 95
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1381,12 +1381,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_61
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 0
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7204
+        y: 95
+        width: 426
+        height: 503
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1402,12 +1402,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_62
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 0
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8563
+        y: 96
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1423,12 +1423,12 @@ TextureImporter:
       name: Rat_AnimationSheet_Face_63
       rect:
         serializedVersion: 2
-        x: 4200
-        y: 0
-        width: 600
-        height: 282
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9923
+        y: 96
+        width: 425
+        height: 498
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
