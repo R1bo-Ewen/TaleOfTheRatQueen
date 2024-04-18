@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &179460269025973221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7306467838620634774}
+  m_Layer: 0
+  m_Name: RatsContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7306467838620634774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179460269025973221}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -15.064773, y: -7.455778, z: -7.226761}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 18148703215834554}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &217456867473463668
 GameObject:
   m_ObjectHideFlags: 3
@@ -25,7 +56,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217456867473463668}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07232506, y: 0.8220797, z: -0.10722873, w: 0.5544872}
+  m_LocalRotation: {x: 0.072325066, y: 0.82207966, z: -0.1072287, w: 0.55448735}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -768,7 +799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 18148703215834554}
   m_Layer: 0
-  m_Name: Player
+  m_Name: RatsGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -790,6 +821,7 @@ Transform:
   - {fileID: 9098259114085625660}
   - {fileID: 7025800961140711635}
   - {fileID: 3205276818607891509}
+  - {fileID: 7306467838620634774}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8079247600041697577
@@ -910,6 +942,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nbOfRats: 3
+  FoodEaten: 0
+  ratsContainer: {fileID: 179460269025973221}
   ratPrefab: {fileID: 4057719598709570290, guid: cfc3fd8ca3e263a42b952e1fc9136c7c, type: 3}
 --- !u!1 &8934440523701126879
 GameObject:

@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -100,33 +100,12 @@ TextureImporter:
       name: Garde_AnimationSheet_Profil_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 5045
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 566541943951c934b875a1c412db132e
-      internalID: -688504404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_1
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 4342
-        width: 784
-        height: 1040
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,36 +118,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_2
+      name: Garde_AnimationSheet_Profil_1
       rect:
         serializedVersion: 2
-        x: 959
-        y: 5045
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a5d22b177b28124e826362cfe0e2653
-      internalID: 1612069253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_3
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 4342
-        width: 784
-        height: 1040
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1030
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,36 +139,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_4
+      name: Garde_AnimationSheet_Profil_2
       rect:
         serializedVersion: 2
-        x: 1879
-        y: 5045
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ddc351a42adbc0d4eb2e09c58b7b4fca
-      internalID: -2136233003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_5
-      rect:
-        serializedVersion: 2
-        x: 1976
-        y: 4342
-        width: 784
-        height: 1040
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2060
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,36 +160,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_6
+      name: Garde_AnimationSheet_Profil_3
       rect:
         serializedVersion: 2
-        x: 2799
-        y: 5045
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 827add9e26948d84ea75ceaf0797bae1
-      internalID: -2031052244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_7
-      rect:
-        serializedVersion: 2
-        x: 2896
-        y: 4342
-        width: 784
-        height: 1040
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3090
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,36 +181,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_8
+      name: Garde_AnimationSheet_Profil_4
       rect:
         serializedVersion: 2
-        x: 3719
-        y: 5045
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd04eb2177fc3974d9e6b7fbd5b7776a
-      internalID: -750142744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_9
-      rect:
-        serializedVersion: 2
-        x: 3816
-        y: 4342
-        width: 784
-        height: 1040
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4120
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,15 +202,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_10
+      name: Garde_AnimationSheet_Profil_5
       rect:
         serializedVersion: 2
-        x: 4724
-        y: 4337
-        width: 796
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5150
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -328,15 +223,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_11
+      name: Garde_AnimationSheet_Profil_6
       rect:
         serializedVersion: 2
-        x: 5644
-        y: 4337
-        width: 796
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6180
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -349,15 +244,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_12
+      name: Garde_AnimationSheet_Profil_7
       rect:
         serializedVersion: 2
-        x: 6564
-        y: 4337
-        width: 796
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7210
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -370,120 +265,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_13
+      name: Garde_AnimationSheet_Profil_8
       rect:
         serializedVersion: 2
-        x: 1
-        y: 4626
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 780748a4d1cd3084cb094c6a8a5d80d4
-      internalID: -826299614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_14
-      rect:
-        serializedVersion: 2
-        x: 921
-        y: 4626
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a105bc0bb816d045bc5b18765d31676
-      internalID: 937660012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_15
-      rect:
-        serializedVersion: 2
-        x: 1841
-        y: 4626
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f1485498a3b8bd48a40cc14210f910d
-      internalID: -1312964936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_16
-      rect:
-        serializedVersion: 2
-        x: 2761
-        y: 4626
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f05e464eea30a49418eb5c4f6c5900e2
-      internalID: 2079099310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_17
-      rect:
-        serializedVersion: 2
-        x: 3681
-        y: 4626
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bbdcac666ae9364b98affe360218084
-      internalID: 279542700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_18
-      rect:
-        serializedVersion: 2
-        x: 124
-        y: 3257
-        width: 796
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -496,15 +286,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_19
+      name: Garde_AnimationSheet_Profil_9
       rect:
         serializedVersion: 2
-        x: 1044
-        y: 3257
-        width: 796
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1030
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -517,36 +307,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_20
+      name: Garde_AnimationSheet_Profil_10
       rect:
         serializedVersion: 2
-        x: 1879
-        y: 3965
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f80eb1b0154fadd40b7be398df1d2bf1
-      internalID: 363013103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_21
-      rect:
-        serializedVersion: 2
-        x: 1976
-        y: 3261
-        width: 784
-        height: 1041
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2060
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -559,36 +328,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_22
+      name: Garde_AnimationSheet_Profil_11
       rect:
         serializedVersion: 2
-        x: 2799
-        y: 3965
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a60ab056700ab24c982677c1a5f6d24
-      internalID: 828369299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_23
-      rect:
-        serializedVersion: 2
-        x: 2896
-        y: 3261
-        width: 784
-        height: 1041
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3090
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -601,36 +349,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_24
+      name: Garde_AnimationSheet_Profil_12
       rect:
         serializedVersion: 2
-        x: 3719
-        y: 3965
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6080010819160954b899a8287e6efe72
-      internalID: 1521655455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_25
-      rect:
-        serializedVersion: 2
-        x: 3816
-        y: 3261
-        width: 784
-        height: 1041
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4120
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -643,36 +370,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_26
+      name: Garde_AnimationSheet_Profil_13
       rect:
         serializedVersion: 2
-        x: 4639
-        y: 3965
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56bbb42fcba775f469bfac58dc1b9409
-      internalID: -1910138898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_27
-      rect:
-        serializedVersion: 2
-        x: 4736
-        y: 3261
-        width: 784
-        height: 1041
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5150
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -685,36 +391,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_28
+      name: Garde_AnimationSheet_Profil_14
       rect:
         serializedVersion: 2
-        x: 5559
-        y: 3965
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bb58e24247e7134bb57cab63edb3529
-      internalID: -2082378333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_29
-      rect:
-        serializedVersion: 2
-        x: 5656
-        y: 3261
-        width: 784
-        height: 1041
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6180
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -727,15 +412,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_30
+      name: Garde_AnimationSheet_Profil_15
       rect:
         serializedVersion: 2
-        x: 6592
-        y: 3253
-        width: 768
-        height: 1044
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7210
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -748,15 +433,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_31
+      name: Garde_AnimationSheet_Profil_16
       rect:
         serializedVersion: 2
-        x: 152
-        y: 2173
-        width: 768
-        height: 1044
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -769,15 +454,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_32
+      name: Garde_AnimationSheet_Profil_17
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 2173
-        width: 768
-        height: 1044
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1030
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -790,15 +475,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_33
+      name: Garde_AnimationSheet_Profil_18
       rect:
         serializedVersion: 2
-        x: 1992
-        y: 2173
-        width: 768
-        height: 1044
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2060
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -811,15 +496,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_34
+      name: Garde_AnimationSheet_Profil_19
       rect:
         serializedVersion: 2
-        x: 2912
-        y: 2173
-        width: 768
-        height: 1044
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3090
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -832,15 +517,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_35
+      name: Garde_AnimationSheet_Profil_20
       rect:
         serializedVersion: 2
-        x: 3838
-        y: 2172
-        width: 762
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4120
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -853,15 +538,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_36
+      name: Garde_AnimationSheet_Profil_21
       rect:
         serializedVersion: 2
-        x: 4758
-        y: 2172
-        width: 762
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5150
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -874,15 +559,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_37
+      name: Garde_AnimationSheet_Profil_22
       rect:
         serializedVersion: 2
-        x: 5678
-        y: 2172
-        width: 762
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6180
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -895,15 +580,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_38
+      name: Garde_AnimationSheet_Profil_23
       rect:
         serializedVersion: 2
-        x: 6598
-        y: 2172
-        width: 762
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7210
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -916,15 +601,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_39
+      name: Garde_AnimationSheet_Profil_24
       rect:
         serializedVersion: 2
-        x: 158
-        y: 1092
-        width: 762
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -937,15 +622,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_40
+      name: Garde_AnimationSheet_Profil_25
       rect:
         serializedVersion: 2
-        x: 1091
-        y: 1095
-        width: 749
-        height: 1042
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1030
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -958,15 +643,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_41
+      name: Garde_AnimationSheet_Profil_26
       rect:
         serializedVersion: 2
-        x: 2011
-        y: 1095
-        width: 749
-        height: 1042
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2060
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -979,15 +664,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_42
+      name: Garde_AnimationSheet_Profil_27
       rect:
         serializedVersion: 2
-        x: 2931
-        y: 1095
-        width: 749
-        height: 1042
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3090
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1000,15 +685,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_43
+      name: Garde_AnimationSheet_Profil_28
       rect:
         serializedVersion: 2
-        x: 3851
-        y: 1095
-        width: 749
-        height: 1042
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4120
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1021,15 +706,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_44
+      name: Garde_AnimationSheet_Profil_29
       rect:
         serializedVersion: 2
-        x: 4771
-        y: 1095
-        width: 749
-        height: 1042
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5150
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1042,15 +727,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_45
+      name: Garde_AnimationSheet_Profil_30
       rect:
         serializedVersion: 2
-        x: 5678
-        y: 1092
-        width: 762
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6180
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1063,15 +748,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_46
+      name: Garde_AnimationSheet_Profil_31
       rect:
         serializedVersion: 2
-        x: 6598
-        y: 1092
-        width: 762
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7210
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1084,15 +769,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_47
+      name: Garde_AnimationSheet_Profil_32
       rect:
         serializedVersion: 2
-        x: 158
-        y: 12
-        width: 762
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1105,15 +790,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_48
+      name: Garde_AnimationSheet_Profil_33
       rect:
         serializedVersion: 2
-        x: 1078
-        y: 12
-        width: 762
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1030
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1126,15 +811,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_49
+      name: Garde_AnimationSheet_Profil_34
       rect:
         serializedVersion: 2
-        x: 1998
-        y: 12
-        width: 762
-        height: 1045
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2060
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1147,15 +832,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_50
+      name: Garde_AnimationSheet_Profil_35
       rect:
         serializedVersion: 2
-        x: 2905
-        y: 15
-        width: 775
-        height: 1051
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3090
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1168,15 +853,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_51
+      name: Garde_AnimationSheet_Profil_36
       rect:
         serializedVersion: 2
-        x: 3825
-        y: 15
-        width: 775
-        height: 1051
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4120
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1189,15 +874,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_52
+      name: Garde_AnimationSheet_Profil_37
       rect:
         serializedVersion: 2
-        x: 4745
-        y: 15
-        width: 775
-        height: 1051
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5150
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1210,15 +895,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_53
+      name: Garde_AnimationSheet_Profil_38
       rect:
         serializedVersion: 2
-        x: 5665
-        y: 15
-        width: 775
-        height: 1051
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6180
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1231,15 +916,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Profil_54
+      name: Garde_AnimationSheet_Profil_39
       rect:
         serializedVersion: 2
-        x: 6585
-        y: 15
-        width: 775
-        height: 1051
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7210
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.55, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1262,61 +947,46 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Garde_AnimationSheet_Profil_0: -688504404
-      Garde_AnimationSheet_Profil_1: -552593628
-      Garde_AnimationSheet_Profil_10: 1737104453
-      Garde_AnimationSheet_Profil_11: -251482363
-      Garde_AnimationSheet_Profil_12: 1029671380
-      Garde_AnimationSheet_Profil_13: -826299614
-      Garde_AnimationSheet_Profil_14: 937660012
-      Garde_AnimationSheet_Profil_15: -1312964936
-      Garde_AnimationSheet_Profil_16: 2079099310
-      Garde_AnimationSheet_Profil_17: 279542700
-      Garde_AnimationSheet_Profil_18: 536558686
-      Garde_AnimationSheet_Profil_19: -824252637
-      Garde_AnimationSheet_Profil_2: 1612069253
-      Garde_AnimationSheet_Profil_20: 363013103
-      Garde_AnimationSheet_Profil_21: -93312930
-      Garde_AnimationSheet_Profil_22: 828369299
-      Garde_AnimationSheet_Profil_23: 1241580563
-      Garde_AnimationSheet_Profil_24: 1521655455
-      Garde_AnimationSheet_Profil_25: 196854320
-      Garde_AnimationSheet_Profil_26: -1910138898
-      Garde_AnimationSheet_Profil_27: -825391
-      Garde_AnimationSheet_Profil_28: -2082378333
-      Garde_AnimationSheet_Profil_29: -710920706
-      Garde_AnimationSheet_Profil_3: -471626173
-      Garde_AnimationSheet_Profil_30: 48967031
-      Garde_AnimationSheet_Profil_31: 271642076
-      Garde_AnimationSheet_Profil_32: 556290876
-      Garde_AnimationSheet_Profil_33: 197920348
-      Garde_AnimationSheet_Profil_34: 1195931002
-      Garde_AnimationSheet_Profil_35: -1685897442
-      Garde_AnimationSheet_Profil_36: -964795560
-      Garde_AnimationSheet_Profil_37: -1575691787
-      Garde_AnimationSheet_Profil_38: 290499688
-      Garde_AnimationSheet_Profil_39: 2123512022
-      Garde_AnimationSheet_Profil_4: -2136233003
-      Garde_AnimationSheet_Profil_40: -1787909874
-      Garde_AnimationSheet_Profil_41: 1923176805
-      Garde_AnimationSheet_Profil_42: 958680854
-      Garde_AnimationSheet_Profil_43: 749695535
-      Garde_AnimationSheet_Profil_44: 1380502008
-      Garde_AnimationSheet_Profil_45: 356195437
-      Garde_AnimationSheet_Profil_46: 595145830
-      Garde_AnimationSheet_Profil_47: -1157743125
-      Garde_AnimationSheet_Profil_48: -1457825275
-      Garde_AnimationSheet_Profil_49: -226197785
-      Garde_AnimationSheet_Profil_5: 1118473420
-      Garde_AnimationSheet_Profil_50: -1019029124
-      Garde_AnimationSheet_Profil_51: -279692337
-      Garde_AnimationSheet_Profil_52: -55866137
-      Garde_AnimationSheet_Profil_53: 1390156160
-      Garde_AnimationSheet_Profil_54: -1047620096
-      Garde_AnimationSheet_Profil_6: -2031052244
-      Garde_AnimationSheet_Profil_7: 812791087
-      Garde_AnimationSheet_Profil_8: -750142744
-      Garde_AnimationSheet_Profil_9: -1217264242
+      Garde_AnimationSheet_Profil_0: -552593628
+      Garde_AnimationSheet_Profil_1: -471626173
+      Garde_AnimationSheet_Profil_10: -93312930
+      Garde_AnimationSheet_Profil_11: 1241580563
+      Garde_AnimationSheet_Profil_12: 196854320
+      Garde_AnimationSheet_Profil_13: -825391
+      Garde_AnimationSheet_Profil_14: -710920706
+      Garde_AnimationSheet_Profil_15: 48967031
+      Garde_AnimationSheet_Profil_16: 271642076
+      Garde_AnimationSheet_Profil_17: 556290876
+      Garde_AnimationSheet_Profil_18: 197920348
+      Garde_AnimationSheet_Profil_19: 1195931002
+      Garde_AnimationSheet_Profil_2: 1118473420
+      Garde_AnimationSheet_Profil_20: -1685897442
+      Garde_AnimationSheet_Profil_21: -964795560
+      Garde_AnimationSheet_Profil_22: -1575691787
+      Garde_AnimationSheet_Profil_23: 290499688
+      Garde_AnimationSheet_Profil_24: 2123512022
+      Garde_AnimationSheet_Profil_25: -1787909874
+      Garde_AnimationSheet_Profil_26: 1923176805
+      Garde_AnimationSheet_Profil_27: 958680854
+      Garde_AnimationSheet_Profil_28: 749695535
+      Garde_AnimationSheet_Profil_29: 1380502008
+      Garde_AnimationSheet_Profil_3: 812791087
+      Garde_AnimationSheet_Profil_30: 356195437
+      Garde_AnimationSheet_Profil_31: 595145830
+      Garde_AnimationSheet_Profil_32: -1157743125
+      Garde_AnimationSheet_Profil_33: -1457825275
+      Garde_AnimationSheet_Profil_34: -226197785
+      Garde_AnimationSheet_Profil_35: -1019029124
+      Garde_AnimationSheet_Profil_36: -279692337
+      Garde_AnimationSheet_Profil_37: -55866137
+      Garde_AnimationSheet_Profil_38: 1390156160
+      Garde_AnimationSheet_Profil_39: -1047620096
+      Garde_AnimationSheet_Profil_4: -1217264242
+      Garde_AnimationSheet_Profil_5: 1737104453
+      Garde_AnimationSheet_Profil_6: -251482363
+      Garde_AnimationSheet_Profil_7: 1029671380
+      Garde_AnimationSheet_Profil_8: 536558686
+      Garde_AnimationSheet_Profil_9: -824252637
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
