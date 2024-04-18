@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 448cde8abbc86ab47907ad043c90cfad, type: 3}
-  m_Name: Farmer
+  m_Name: Guarde
   m_EditorClassIdentifier: 
   attackingTime: 2
   damage: 3

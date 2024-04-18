@@ -751,27 +751,6 @@ TextureImporter:
       name: Garde_AnimationSheet_Face_31
       rect:
         serializedVersion: 2
-        x: 5935
-        y: 2126
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab5873c1c5d9f8242bda621a9b289782
-      internalID: -189299411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_32
-      rect:
-        serializedVersion: 2
         x: 6478
         y: 1092
         width: 845
@@ -790,28 +769,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_33
-      rect:
-        serializedVersion: 2
-        x: 6855
-        y: 2126
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a863ae1f1bbf46428a24f41641ed02e
-      internalID: 1028812626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_34
+      name: Garde_AnimationSheet_Face_32
       rect:
         serializedVersion: 2
         x: 38
@@ -832,28 +790,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_35
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 1046
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d12ac6a90dedbcd44b0f0799fd85351b
-      internalID: 2121774834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_36
+      name: Garde_AnimationSheet_Face_33
       rect:
         serializedVersion: 2
         x: 958
@@ -874,28 +811,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_37
-      rect:
-        serializedVersion: 2
-        x: 1335
-        y: 1046
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c9962c558a9e584da6f41f304e2b60b
-      internalID: -315473412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_38
+      name: Garde_AnimationSheet_Face_34
       rect:
         serializedVersion: 2
         x: 1878
@@ -916,28 +832,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_39
-      rect:
-        serializedVersion: 2
-        x: 2255
-        y: 1046
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ec7a98a49cc1984d967834803225a69
-      internalID: -976089409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_40
+      name: Garde_AnimationSheet_Face_35
       rect:
         serializedVersion: 2
         x: 2803
@@ -958,7 +853,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_41
+      name: Garde_AnimationSheet_Face_36
       rect:
         serializedVersion: 2
         x: 3723
@@ -979,7 +874,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_42
+      name: Garde_AnimationSheet_Face_37
       rect:
         serializedVersion: 2
         x: 4643
@@ -1000,7 +895,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_43
+      name: Garde_AnimationSheet_Face_38
       rect:
         serializedVersion: 2
         x: 5563
@@ -1021,7 +916,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Garde_AnimationSheet_Face_44
+      name: Garde_AnimationSheet_Face_39
       rect:
         serializedVersion: 2
         x: 6483
@@ -1077,21 +972,16 @@ TextureImporter:
       Garde_AnimationSheet_Face_29: 307101288
       Garde_AnimationSheet_Face_3: -1370728677
       Garde_AnimationSheet_Face_30: -1629752791
-      Garde_AnimationSheet_Face_31: -189299411
-      Garde_AnimationSheet_Face_32: -1765506158
-      Garde_AnimationSheet_Face_33: 1028812626
-      Garde_AnimationSheet_Face_34: -1239455138
-      Garde_AnimationSheet_Face_35: 2121774834
-      Garde_AnimationSheet_Face_36: 217678262
-      Garde_AnimationSheet_Face_37: -315473412
-      Garde_AnimationSheet_Face_38: -2072222571
-      Garde_AnimationSheet_Face_39: -976089409
+      Garde_AnimationSheet_Face_31: -1765506158
+      Garde_AnimationSheet_Face_32: -1239455138
+      Garde_AnimationSheet_Face_33: 217678262
+      Garde_AnimationSheet_Face_34: -2072222571
+      Garde_AnimationSheet_Face_35: -1589136646
+      Garde_AnimationSheet_Face_36: 793441865
+      Garde_AnimationSheet_Face_37: 76530350
+      Garde_AnimationSheet_Face_38: -1318240289
+      Garde_AnimationSheet_Face_39: -895469243
       Garde_AnimationSheet_Face_4: -866076181
-      Garde_AnimationSheet_Face_40: -1589136646
-      Garde_AnimationSheet_Face_41: 793441865
-      Garde_AnimationSheet_Face_42: 76530350
-      Garde_AnimationSheet_Face_43: -1318240289
-      Garde_AnimationSheet_Face_44: -895469243
       Garde_AnimationSheet_Face_5: 1066192243
       Garde_AnimationSheet_Face_6: -954969414
       Garde_AnimationSheet_Face_7: 1075960758
