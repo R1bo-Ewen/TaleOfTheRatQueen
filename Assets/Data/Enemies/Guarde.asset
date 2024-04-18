@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Guarde
   m_EditorClassIdentifier: 
   attackingTime: 2
-  damage: 3
+  damage: 1
