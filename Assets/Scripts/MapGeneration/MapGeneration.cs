@@ -115,7 +115,7 @@ public class MapGeneration : MonoBehaviour
         int neighborDirectionIndex = Random.Range(0, directionsToExplore.Count);
 
         // Get the coordinates of the neighboring room based on the selected direction.
-        Vector2Int connectedNeighborCoords = GetNeighborCoords(room.GetCoords(), directionsToExplore[neighborDirectionIndex]);
+        Vector2Int connectedNeighborCoords = GetNeighborCoords(room.coords, directionsToExplore[neighborDirectionIndex]);
 
         // Create a new room at the neighboring coordinates.
         Room connectedNeighbor = CreateRoom(connectedNeighborCoords);
@@ -164,7 +164,7 @@ public class MapGeneration : MonoBehaviour
 
             room.tile = Instantiate(roomPrefab);
             room.tileSize = room.tile.GetComponent<PrefabBounds>().GetSize();
-            room.tile.transform.position = new Vector3(room.tileSize.x * room.GetCoords().x, 0.0f, room.tileSize.z * room.GetCoords().y);
+            room.tile.transform.position = new Vector3(room.tileSize.x * room.coords.x, 0.0f, room.tileSize.z * room.coords.y);
             room.tile.transform.SetParent(roomsParent.transform);
         }
 
@@ -182,13 +182,12 @@ public class MapGeneration : MonoBehaviour
             }
 
             int directionIndex = DIRECTIONS.FindIndex(d => d == direction);
-            door.GetRoomA().spawnedWalls.Add(direction);
-            door.GetRoomB().spawnedWalls.Add(DIRECTIONS[(directionIndex + 2) % 4]);
+            door.GetRoomA().AddSpawnedWall(direction);
+            door.GetRoomB().AddSpawnedWall(DIRECTIONS[(directionIndex + 2) % 4]);
             door.tile.transform.SetParent(doorsParent.transform);
         }
 
         // Walls
-        // TO FIX : 2 walls can spawn at same location if 2 rooms are neighbors without being connected by a door
         for (int i = 0; i < map.rooms.Count; i++)
         {
             if (i == 0)
@@ -209,12 +208,20 @@ public class MapGeneration : MonoBehaviour
 
             foreach (Direction direction in DIRECTIONS)
             {
-                if (map.rooms[i].spawnedWalls.Contains(direction))
+                if (map.rooms[i].GetSpawnedWalls().Contains(direction))
                 {
                     continue;
                 }
 
                 SpawnWall(map.rooms[i], direction, wallPrefab);
+
+                // To avoid the neighbor to spawn the same wall.
+                if (IsThereNeighbor(map.rooms[i], direction, map))
+                {
+                    Vector2Int neighborCoords = GetNeighborCoords(map.rooms[i].coords, direction);
+                    Room neighbor = map.rooms.Find(r => r.coords == neighborCoords);
+                    neighbor.AddSpawnedWall(DIRECTIONS[(DIRECTIONS.FindIndex(d => d == direction) + 2) % 4]);
+                }
             }
         }
     }
@@ -250,7 +257,7 @@ public class MapGeneration : MonoBehaviour
         wallObject.transform.position = position;
         wallObject.transform.Rotate(rotation);
         wallObject.transform.SetParent(GameObject.Find("Walls").transform);
-        room.spawnedWalls.Add(direction);
+        room.AddSpawnedWall(direction);
     }
     private void SetSpawnLocation()
     {

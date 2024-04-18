@@ -38,7 +38,8 @@ public class GPS
     // TO FIX : Add the case where the 2 tested rooms are not neighbors (currently should never happen).
     public static Direction GetNeighborDirection(Room myRoom, Room neighbor)
     {
-        Vector2Int offset = neighbor.GetCoords() - myRoom.GetCoords();
+        // Vector2Int offset = neighbor.GetCoords() - myRoom.GetCoords();
+        Vector2Int offset = neighbor.coords - myRoom.coords;
 
         if (offset == new Vector2Int(0, 1))
         {
@@ -61,7 +62,8 @@ public class GPS
     // Returns whether a neighboring room (connected or not) exists in a given direction.
     public static bool IsThereNeighbor(Room room, Direction direction, Map map)
     {
-        Vector2Int neighborCoords = GetNeighborCoords(room.GetCoords(), direction);
+        // Vector2Int neighborCoords = GetNeighborCoords(room.GetCoords(), direction);
+        Vector2Int neighborCoords = GetNeighborCoords(room.coords, direction);
 
         if (!IsCoordsInMap(neighborCoords, map))
         {
@@ -78,7 +80,8 @@ public class GPS
 
         foreach (Direction direction in DIRECTIONS)
         {
-            Vector2Int neighborCoords = GetNeighborCoords(room.GetCoords(), direction);
+            // Vector2Int neighborCoords = GetNeighborCoords(room.GetCoords(), direction);
+            Vector2Int neighborCoords = GetNeighborCoords(room.coords, direction);
 
             if (!IsCoordsInMap(neighborCoords, map))
             {
