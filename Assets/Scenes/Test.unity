@@ -217,11 +217,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5055511471817639985, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0007830259
+      value: 0.00078299176
       objectReference: {fileID: 0}
     - target: {fileID: 5055511471817639985, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00010213456
+      value: -0.000102130114
       objectReference: {fileID: 0}
     - target: {fileID: 5847311020938956412, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_Name
@@ -396,6 +396,7 @@ MonoBehaviour:
   mapSize: {x: 20, y: 20}
   nbRoomMax: 10
   wallPrefab: {fileID: 5752702330304392158, guid: 13409c51666068d4a98be7fee7e05dce, type: 3}
+  exitWallPrefab: {fileID: 5752702330304392158, guid: dae14f65873b23c49adc1199aa7c5d17, type: 3}
   doorPrefab: {fileID: 5752702330304392158, guid: fd8718f031e6cfa48bc0b49f9ab0edd1, type: 3}
   defaultRoomPrefab: {fileID: 6478756434531161961, guid: f89a38033c2a8a340ab1587c09aae0a9, type: 3}
   kitchenPrefabs:
