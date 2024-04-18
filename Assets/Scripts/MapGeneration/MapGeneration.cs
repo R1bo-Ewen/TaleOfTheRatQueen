@@ -14,8 +14,8 @@ public class MapGeneration : MonoBehaviour
     [Header("========== PREFABS ====================")]
     [SerializeField] private GameObject wallPrefab;
     [SerializeField] private GameObject exitWallPrefab;
-    [SerializeField] private GameObject doorPrefab;
     [SerializeField] private GameObject defaultRoomPrefab;
+    [SerializeField] private List<GameObject> doorPrefabs;
     [SerializeField] private List<GameObject> kitchenPrefabs;
     [SerializeField] private List<GameObject> bedroomPrefabs;
     [SerializeField] private List<GameObject> bigRoomPrefabs;
@@ -187,7 +187,7 @@ public class MapGeneration : MonoBehaviour
                 }
             }
 
-            door.tile = Instantiate(doorPrefab);
+            door.tile = Instantiate(doorPrefabs[Random.Range(0, doorPrefabs.Count)]);
             door.tile.transform.position = new Vector3(door.GetPosition().x, 0.0f, door.GetPosition().y);
 
             if (door.direction == Direction.NORTH | door.direction == Direction.SOUTH)
