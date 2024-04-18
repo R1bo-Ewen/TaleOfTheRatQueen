@@ -172,18 +172,30 @@ public class MapGeneration : MonoBehaviour
         foreach (Door door in map.doors)
         {
             door.UpdatePosition();
+
+            // If the door connects two corridors maybe we won't spawn it.
+            if(door.GetRoomA().type == RoomType.CORRIDOR && door.GetRoomB().type == RoomType.CORRIDOR)
+            {
+                // 50% chance to spawn the door.
+                bool doorWillSpawn = Random.value < 0.5f;
+
+                if (!doorWillSpawn)
+                {
+                    // To avoid walls to spawn here.
+                    door.UpdateRoomsSpawnedWalls();
+                    continue;
+                }
+            }
+
             door.tile = Instantiate(doorPrefab);
             door.tile.transform.position = new Vector3(door.GetPosition().x, 0.0f, door.GetPosition().y);
-            Direction direction = GetNeighborDirection(door.GetRoomA(), door.GetRoomB());
 
-            if (direction == Direction.NORTH | direction == Direction.SOUTH)
+            if (door.direction == Direction.NORTH | door.direction == Direction.SOUTH)
             {
                 door.tile.transform.Rotate(0.0f, 90.0f, 0.0f);
             }
 
-            int directionIndex = DIRECTIONS.FindIndex(d => d == direction);
-            door.GetRoomA().AddSpawnedWall(direction);
-            door.GetRoomB().AddSpawnedWall(DIRECTIONS[(directionIndex + 2) % 4]);
+            door.UpdateRoomsSpawnedWalls();
             door.tile.transform.SetParent(doorsParent.transform);
         }
 
