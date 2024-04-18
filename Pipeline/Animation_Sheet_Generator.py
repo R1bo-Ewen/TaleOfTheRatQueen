@@ -23,7 +23,7 @@ CROP: bool = True
 
 # (left, upper, right, lower)
 # CROP_COORDS: tuple[int, int, int, int] = (370, 380, 1730, 1020)  # Rat
-CROP_COORDS: tuple[int, int, int, int] = (500, 0, 1420, 1080)  # Garde
+CROP_COORDS: tuple[int, int, int, int] = (500, 0, 1530, 1080)  # Garde
 
 RESIZE: bool = False
 RESIZE_WIDTH: int = 600
