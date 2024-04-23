@@ -1,0 +1,994 @@
+fileFormatVersion: 2
+guid: d459d9369e5c4f74dad96490a4571d1c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f588a682ff2b7c4fbcd6a1aff14f61c
+      internalID: 89055687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_1
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addbefd0f7f5b2d45bc6c5b8d2e9461d
+      internalID: 283168417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_2
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c24b4b6f12bd2d4da414b1728ee767e
+      internalID: -1421936167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_3
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7537091b554d28428562a79a42a47c8
+      internalID: -742788524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_4
+      rect:
+        serializedVersion: 2
+        x: 4120
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c748a58568916d348a3e5a7d9e3a53d2
+      internalID: -1319586805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_5
+      rect:
+        serializedVersion: 2
+        x: 5150
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec05dd7fe4caaf459271501b6de19b4
+      internalID: 631916307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_6
+      rect:
+        serializedVersion: 2
+        x: 6180
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8151c9bbad6c45d4fa4e8835c4989049
+      internalID: 180790557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_7
+      rect:
+        serializedVersion: 2
+        x: 7210
+        y: 4320
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6aaecd82f3c94b469060595ea9ec5b2
+      internalID: 80004795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ea266f0a0efe84a940082b0afcd4fc
+      internalID: -1392193252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_9
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8904342e8bd1743bf07653b82e3c00
+      internalID: -370899611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_10
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75b90e73d861264a8019d33c24f8394
+      internalID: -1693052078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_11
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8d44fc524ca8244a030eb7dc2ff7a4
+      internalID: 48963967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_12
+      rect:
+        serializedVersion: 2
+        x: 4120
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9599a80e8ff3cf04d9d080c8681e68c2
+      internalID: -1641348750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_13
+      rect:
+        serializedVersion: 2
+        x: 5150
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134d3146c79ae5e4698761e86b1e93fa
+      internalID: 633735145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_14
+      rect:
+        serializedVersion: 2
+        x: 6180
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5622c7a3477a18c4ba0c7e63a5afff6c
+      internalID: 997844200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_15
+      rect:
+        serializedVersion: 2
+        x: 7210
+        y: 3240
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7766cbbd799dfbe4e9814dc62dd2e240
+      internalID: -896751464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509199823aa4ba345b65d65882c2eb3b
+      internalID: -1575567957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_17
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4716f1dbef492cc4ca5486f9cb988d03
+      internalID: 293795674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_18
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f8fd0940c0e8b438041bfb19042f73
+      internalID: -375005722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_19
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f63462d112156946ad382dc5867b7fe
+      internalID: 1367828146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_20
+      rect:
+        serializedVersion: 2
+        x: 4120
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd13c4eb330c5d644bce0df27824f78a
+      internalID: -686225169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_21
+      rect:
+        serializedVersion: 2
+        x: 5150
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed83c75f4220340429beac9bec6f21c3
+      internalID: 120722822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_22
+      rect:
+        serializedVersion: 2
+        x: 6180
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38504cf189efc443b9b32592fd54fb6
+      internalID: 646325920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_23
+      rect:
+        serializedVersion: 2
+        x: 7210
+        y: 2160
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6341562bb7eb82c4c80d83d94ae8bc55
+      internalID: -1144193907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30ed79f10d2f7442b13f7ca8ab25ee8
+      internalID: 711221744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_25
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135e4a06172994d4d9efb26f5b87be03
+      internalID: 74444216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_26
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03ebf0a53281ed4b99ca3c307719236
+      internalID: -1162195716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_27
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677fdf6659f3ba24c8987b9f2202d2d2
+      internalID: -1823698011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_28
+      rect:
+        serializedVersion: 2
+        x: 4120
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6489dd26ea522624ba7e2ae2b47169c6
+      internalID: -853147324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_29
+      rect:
+        serializedVersion: 2
+        x: 5150
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa52a7d9cf7c65d4fa5d242675ce27d1
+      internalID: -1870033573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_30
+      rect:
+        serializedVersion: 2
+        x: 6180
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398e26b95d10adb4c928644b745fc45f
+      internalID: 1091275689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_31
+      rect:
+        serializedVersion: 2
+        x: 7210
+        y: 1080
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e72b6afd10dfd14198ebfaa88fcaf76
+      internalID: 753809094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137357d9922d4db44abb0a53129f9f65
+      internalID: 882284225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_33
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6ca441745227e4aa4c72e7ab8f9026
+      internalID: -570341737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_34
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b06ed8e3043f74b8e6d17427a56e0a
+      internalID: -1704452281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_35
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7def35afa5da7a46ae2c07be99a1c01
+      internalID: 1863445222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_36
+      rect:
+        serializedVersion: 2
+        x: 4120
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e93e2993a81f642897db0580132dd0
+      internalID: -823079734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_37
+      rect:
+        serializedVersion: 2
+        x: 5150
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3ee5afe86a68640bfad610e2021bef
+      internalID: 1668742589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_38
+      rect:
+        serializedVersion: 2
+        x: 6180
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11881d71fb239a499bf41eb4dc1f4dd
+      internalID: 1755934270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Garde_AnimationSheet_Front_39
+      rect:
+        serializedVersion: 2
+        x: 7210
+        y: 0
+        width: 1030
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.45, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfea0378f5ea324184407ee48974fee
+      internalID: -1373547131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Moving_Garde_AnimationSheet_Front_0: 89055687
+      Moving_Garde_AnimationSheet_Front_1: 283168417
+      Moving_Garde_AnimationSheet_Front_10: -1693052078
+      Moving_Garde_AnimationSheet_Front_11: 48963967
+      Moving_Garde_AnimationSheet_Front_12: -1641348750
+      Moving_Garde_AnimationSheet_Front_13: 633735145
+      Moving_Garde_AnimationSheet_Front_14: 997844200
+      Moving_Garde_AnimationSheet_Front_15: -896751464
+      Moving_Garde_AnimationSheet_Front_16: -1575567957
+      Moving_Garde_AnimationSheet_Front_17: 293795674
+      Moving_Garde_AnimationSheet_Front_18: -375005722
+      Moving_Garde_AnimationSheet_Front_19: 1367828146
+      Moving_Garde_AnimationSheet_Front_2: -1421936167
+      Moving_Garde_AnimationSheet_Front_20: -686225169
+      Moving_Garde_AnimationSheet_Front_21: 120722822
+      Moving_Garde_AnimationSheet_Front_22: 646325920
+      Moving_Garde_AnimationSheet_Front_23: -1144193907
+      Moving_Garde_AnimationSheet_Front_24: 711221744
+      Moving_Garde_AnimationSheet_Front_25: 74444216
+      Moving_Garde_AnimationSheet_Front_26: -1162195716
+      Moving_Garde_AnimationSheet_Front_27: -1823698011
+      Moving_Garde_AnimationSheet_Front_28: -853147324
+      Moving_Garde_AnimationSheet_Front_29: -1870033573
+      Moving_Garde_AnimationSheet_Front_3: -742788524
+      Moving_Garde_AnimationSheet_Front_30: 1091275689
+      Moving_Garde_AnimationSheet_Front_31: 753809094
+      Moving_Garde_AnimationSheet_Front_32: 882284225
+      Moving_Garde_AnimationSheet_Front_33: -570341737
+      Moving_Garde_AnimationSheet_Front_34: -1704452281
+      Moving_Garde_AnimationSheet_Front_35: 1863445222
+      Moving_Garde_AnimationSheet_Front_36: -823079734
+      Moving_Garde_AnimationSheet_Front_37: 1668742589
+      Moving_Garde_AnimationSheet_Front_38: 1755934270
+      Moving_Garde_AnimationSheet_Front_39: -1373547131
+      Moving_Garde_AnimationSheet_Front_4: -1319586805
+      Moving_Garde_AnimationSheet_Front_5: 631916307
+      Moving_Garde_AnimationSheet_Front_6: 180790557
+      Moving_Garde_AnimationSheet_Front_7: 80004795
+      Moving_Garde_AnimationSheet_Front_8: -1392193252
+      Moving_Garde_AnimationSheet_Front_9: -370899611
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

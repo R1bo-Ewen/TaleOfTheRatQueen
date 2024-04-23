@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: 43b6b91c873867a4f84f97bb831e88cc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 740
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642fc1762893d564c9685463357f27ba
+      internalID: 117194835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_1
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 740
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbcc6c9cad9deb4aaae72eedad2c16e
+      internalID: 549898741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_2
+      rect:
+        serializedVersion: 2
+        x: 3580
+        y: 740
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c337d1b1a522c1418b4536c289d0bf6
+      internalID: 234643582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_3
+      rect:
+        serializedVersion: 2
+        x: 5370
+        y: 740
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec020fef52b02a4a82bccfee4e496eb
+      internalID: -738126776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_4
+      rect:
+        serializedVersion: 2
+        x: 7160
+        y: 740
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffd55d8cdec0e54691ad8c06b771b15
+      internalID: -1669974033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_5
+      rect:
+        serializedVersion: 2
+        x: 8950
+        y: 740
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a4d9ff94341354c9e9a79825787758
+      internalID: 1186280561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_6
+      rect:
+        serializedVersion: 2
+        x: 10740
+        y: 740
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d3291aa507b4d469b8711d0c564835
+      internalID: 490072999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d1afbbc56b5664bb878af8087ce001
+      internalID: 1386943778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_8
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 0
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a1eeee4a73f544b85218779a17e239
+      internalID: 954493404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_9
+      rect:
+        serializedVersion: 2
+        x: 3580
+        y: 0
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d0f64b8d1a66e4e982d2010a4fbc31
+      internalID: -1328649784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_10
+      rect:
+        serializedVersion: 2
+        x: 5370
+        y: 0
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c708657b018a1f49a55c97899e72026
+      internalID: -586950430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_11
+      rect:
+        serializedVersion: 2
+        x: 7160
+        y: 0
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d98ec40603662478b70e45dd6d4de3
+      internalID: -1043300865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_12
+      rect:
+        serializedVersion: 2
+        x: 8950
+        y: 0
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47be1fedb6745d4dabb214caad4436d
+      internalID: -190096239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moving_Rat_AnimationSheet_Profile_13
+      rect:
+        serializedVersion: 2
+        x: 10740
+        y: 0
+        width: 1790
+        height: 740
+      alignment: 9
+      pivot: {x: 0.34, y: 0.118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dab9f4cdfa1e24fa39aff859fa94bb
+      internalID: -1726473930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1d86674d56918c74fa1195d7e9a3981e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Moving_Rat_AnimationSheet_Profile_0: 117194835
+      Moving_Rat_AnimationSheet_Profile_1: 549898741
+      Moving_Rat_AnimationSheet_Profile_10: -586950430
+      Moving_Rat_AnimationSheet_Profile_11: -1043300865
+      Moving_Rat_AnimationSheet_Profile_12: -190096239
+      Moving_Rat_AnimationSheet_Profile_13: -1726473930
+      Moving_Rat_AnimationSheet_Profile_2: 234643582
+      Moving_Rat_AnimationSheet_Profile_3: -738126776
+      Moving_Rat_AnimationSheet_Profile_4: -1669974033
+      Moving_Rat_AnimationSheet_Profile_5: 1186280561
+      Moving_Rat_AnimationSheet_Profile_6: 490072999
+      Moving_Rat_AnimationSheet_Profile_7: 1386943778
+      Moving_Rat_AnimationSheet_Profile_8: 954493404
+      Moving_Rat_AnimationSheet_Profile_9: -1328649784
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

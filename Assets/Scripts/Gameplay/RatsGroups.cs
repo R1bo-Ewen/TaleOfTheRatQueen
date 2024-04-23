@@ -7,10 +7,7 @@ using UnityEngine;
 public class RatsGroups : MonoBehaviour
 {
     public int nbOfRats = 1;
-    public int FoodEaten = 0;
     private bool inFoodRange;
-    private GameObject foodGameObject;
-    private List<GameObject> ennemiesInRange;
     private List<GameObject> ratsList;
     public Player player;
     [SerializeField] private GameObject ratsContainer;
@@ -18,7 +15,6 @@ public class RatsGroups : MonoBehaviour
 
     void Start()
     {
-        ennemiesInRange = new List<GameObject>();
         ratsList = new List<GameObject>();
         CreateRat(0f,0f);
         for (int i = 1; i < nbOfRats; i++)

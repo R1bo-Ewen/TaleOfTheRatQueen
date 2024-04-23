@@ -62,8 +62,8 @@ GameObject:
   - component: {fileID: 2049417151270644829}
   - component: {fileID: 792728181955151546}
   - component: {fileID: 4862747412908480948}
-  - component: {fileID: 1974086325400149453}
   - component: {fileID: 8235116542644139959}
+  - component: {fileID: 8045673829119930084}
   m_Layer: 0
   m_Name: GFX
   m_TagString: Untagged
@@ -81,7 +81,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.11869356, y: 0.11869356, z: 0.11869356}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5069703771280737960}
@@ -127,12 +127,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -967861408, guid: 913f76289e2b10b47af8dd68ad2a7d16, type: 3}
+  m_Sprite: {fileID: -1881295528, guid: 3bb959d15072aae46b5d012f0e988708, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.0002443, y: 0.6666667}
+  m_Size: {x: 13.6, y: 6.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -151,7 +151,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freezeXZAxis: 1
---- !u!95 &1974086325400149453
+--- !u!114 &8235116542644139959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5127288058384794220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42fe3019e485b1342ad3066187dd5519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backAngle: 65
+  sideAngle: 155
+  mainTransform: {fileID: 5069703771280737960}
+  animator: {fileID: 8045673829119930084}
+  spriteRenderer: {fileID: 792728181955151546}
+--- !u!95 &8045673829119930084
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -172,23 +189,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8235116542644139959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5127288058384794220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42fe3019e485b1342ad3066187dd5519, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backAngle: 65
-  sideAngle: 155
-  mainTransform: {fileID: 5069703771280737960}
-  animator: {fileID: 1974086325400149453}
-  spriteRenderer: {fileID: 792728181955151546}
 --- !u!1 &5635484430814959529
 GameObject:
   m_ObjectHideFlags: 0

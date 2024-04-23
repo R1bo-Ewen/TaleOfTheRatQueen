@@ -1,0 +1,1522 @@
+fileFormatVersion: 2
+guid: 3bb959d15072aae46b5d012f0e988708
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4480
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11668a4200380cb49b9ee58fe2199473
+      internalID: 1353684398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_1
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 4480
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd343bf5a7eb0ec439277f0013cbac2a
+      internalID: -837400235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_2
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 4480
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520d0b8645c54584397ab039d7cd54dc
+      internalID: 1291006791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_3
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 4480
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848dc57dc2804034889f7b7a4ed0caa4
+      internalID: -1475971352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_4
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 4480
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444c9069805858347942ef772272eda3
+      internalID: -1022486339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_5
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 4480
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c9c9eec0f67fa44a56b14c7a6e0d7c
+      internalID: -2014296650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_6
+      rect:
+        serializedVersion: 2
+        x: 8160
+        y: 4480
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed5ccc20e0973d47b368f59c8e1ce32
+      internalID: 804106181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_7
+      rect:
+        serializedVersion: 2
+        x: 9520
+        y: 4480
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4f29b345194c544ae0b2c541a0c90c
+      internalID: 943184505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ba6c6b31783f8408a8bd884c47a2f7
+      internalID: -1881295528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_9
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 3840
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451cbbb396dd2a64ea57d1f44e01106b
+      internalID: -1722801825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_10
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 3840
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a7eb10b08aa2f46ba8e22f762e02a5
+      internalID: -1984091050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_11
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 3840
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0b6588cd47ed3498387ec4363d43a3
+      internalID: -1927994217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_12
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 3840
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11783f2770a22ea42967fabad0af7c1a
+      internalID: 1248948749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_13
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 3840
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe320e95bfdc5b44a8b2380350e59e4
+      internalID: -244778179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_14
+      rect:
+        serializedVersion: 2
+        x: 8160
+        y: 3840
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d713dae12fe334e9b4e1aca4b4d091
+      internalID: 857959700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_15
+      rect:
+        serializedVersion: 2
+        x: 9520
+        y: 3840
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa1bd96f175a354d83dd321527ade21
+      internalID: -397703287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fa0a0bdd06580408e18a68d8c05890
+      internalID: -256428968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_17
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 3200
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df07be202c2526a4c8943a749c4202a1
+      internalID: -1888156930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_18
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 3200
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04e64ed0b329f745a17e3ef728c0ec6
+      internalID: 131407044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_19
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 3200
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760c413dfb0edc247836d24209f82b75
+      internalID: -1240193017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_20
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 3200
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fa2c34f49f88d46ab42a1071cff1d2
+      internalID: -1125872682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_21
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 3200
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997b18f1eeef03742b306af3324023a5
+      internalID: -1856474278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_22
+      rect:
+        serializedVersion: 2
+        x: 8160
+        y: 3200
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57da217eb9855ac43a76505d32149f26
+      internalID: -1219635474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_23
+      rect:
+        serializedVersion: 2
+        x: 9520
+        y: 3200
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37356287f5847144b81d1a37f72189a6
+      internalID: -523027848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb91f2cba14f2f54ea635baa64617d72
+      internalID: 359172741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_25
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2560
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13c723bbdd68cc46b443982624eb0ba
+      internalID: -879237121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_26
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 2560
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3419a45760c511a4e899a092677cdb08
+      internalID: 1102775793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_27
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 2560
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8c021838de6f043a2d13e7b8198fe2
+      internalID: -1658114100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_28
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 2560
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff49221a081ff8438f6e474dbc93336
+      internalID: 860059229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_29
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 2560
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9354f97f58cf7404480323661e64864e
+      internalID: -1363166347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_30
+      rect:
+        serializedVersion: 2
+        x: 8160
+        y: 2560
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9e42819868dff42a9b5ab82d28f077
+      internalID: 1841485317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_31
+      rect:
+        serializedVersion: 2
+        x: 9520
+        y: 2560
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980ea71f6a4d81547ac711e4db06cb4a
+      internalID: -1635836179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e737e471d163c488786478e03d211d
+      internalID: 1067424562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_33
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1920
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb746d3554d72f45aa90f9b608fabb9
+      internalID: 458255307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_34
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 1920
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f902a3d33ef474b97844bcbd4bc1a9
+      internalID: -1640420362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_35
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 1920
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264db12eaeb79774ab4cffebd688e1b8
+      internalID: 178485263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_36
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 1920
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f24a768d80927a45a86f7a43028152f
+      internalID: 17283410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_37
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 1920
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c51c0aa51dd56945b12fe24578d0551
+      internalID: -1939345951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_38
+      rect:
+        serializedVersion: 2
+        x: 8160
+        y: 1920
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34058453294d862449e34abd7038226d
+      internalID: -429769178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_39
+      rect:
+        serializedVersion: 2
+        x: 9520
+        y: 1920
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90a802f17a463d47a0aa20cc1a24ce2
+      internalID: 2058170529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2194deb125e6e469467fca71ce4352
+      internalID: -1547277962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_41
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1280
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff24a123852bf34f8c594ca43c25155
+      internalID: -414730093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_42
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 1280
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8796d067211ee0c40b0f83a051ed5c67
+      internalID: 1070973087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_43
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 1280
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665b51c851a923e43b7565bd70700e70
+      internalID: 287997019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_44
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 1280
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91351883e0016d14f8e06469149f1e57
+      internalID: -610282239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_45
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 1280
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935ff31744e51d64695ac8ff5459bbba
+      internalID: -1044679238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_46
+      rect:
+        serializedVersion: 2
+        x: 8160
+        y: 1280
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f48b41e1f4c0f4b9c661b9c845fe54
+      internalID: -859032089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_47
+      rect:
+        serializedVersion: 2
+        x: 9520
+        y: 1280
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f87a93cd1e7f64a835235cc55c4dee
+      internalID: 1550240705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c11cafa9104e2a4cbb1e969690567b7
+      internalID: 31632654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_49
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 640
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf64f9192623ce4ca567b4d34b3848b
+      internalID: 752419742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_50
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 640
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c343fa157bcf0fd4cb00a28406622b1e
+      internalID: -2137342073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_51
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 640
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8640497e43e7d3544b610b2964c13862
+      internalID: 1494530526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_52
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 640
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152faf516fc576c40b36e5c5fedde566
+      internalID: 1826329532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_53
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 640
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf5834c30f4ae441907ba22419a52b1
+      internalID: -803358041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_54
+      rect:
+        serializedVersion: 2
+        x: 8160
+        y: 640
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63b3a0bd9733134397fb74f90e6a7e7
+      internalID: 2124802021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_55
+      rect:
+        serializedVersion: 2
+        x: 9520
+        y: 640
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c7a59c784a131429503a4b22dec553
+      internalID: 1070437925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a728bfb776592a14790d47731c518da9
+      internalID: -1455751089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_57
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6d9f21ece8df147996d7589cbe9ef4
+      internalID: 805930987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_58
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 0
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a41a21af46a4ac4b93e9141120c5e24
+      internalID: -430235873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_59
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 0
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885b6d518b8f46d48b090d710e09b36d
+      internalID: 805544808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_60
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 0
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da406ba503336a4ca9983b6e5a16d1d
+      internalID: -1891600035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_61
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 0
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37046bf5c92546244aa2e22a620276cb
+      internalID: -241863223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_62
+      rect:
+        serializedVersion: 2
+        x: 8160
+        y: 0
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc99a9b3d873fb4a8e0a89cf33dc0b3
+      internalID: -1196774155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Rat_AnimationSheet_Profile_63
+      rect:
+        serializedVersion: 2
+        x: 9520
+        y: 0
+        width: 1360
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a6d0ffdcde7674f947071cc7bf72ea
+      internalID: -823229250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2c484f53292c26342baa738d14d83f0f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Idle_Rat_AnimationSheet_Profile_0: 1353684398
+      Idle_Rat_AnimationSheet_Profile_1: -837400235
+      Idle_Rat_AnimationSheet_Profile_10: -1984091050
+      Idle_Rat_AnimationSheet_Profile_11: -1927994217
+      Idle_Rat_AnimationSheet_Profile_12: 1248948749
+      Idle_Rat_AnimationSheet_Profile_13: -244778179
+      Idle_Rat_AnimationSheet_Profile_14: 857959700
+      Idle_Rat_AnimationSheet_Profile_15: -397703287
+      Idle_Rat_AnimationSheet_Profile_16: -256428968
+      Idle_Rat_AnimationSheet_Profile_17: -1888156930
+      Idle_Rat_AnimationSheet_Profile_18: 131407044
+      Idle_Rat_AnimationSheet_Profile_19: -1240193017
+      Idle_Rat_AnimationSheet_Profile_2: 1291006791
+      Idle_Rat_AnimationSheet_Profile_20: -1125872682
+      Idle_Rat_AnimationSheet_Profile_21: -1856474278
+      Idle_Rat_AnimationSheet_Profile_22: -1219635474
+      Idle_Rat_AnimationSheet_Profile_23: -523027848
+      Idle_Rat_AnimationSheet_Profile_24: 359172741
+      Idle_Rat_AnimationSheet_Profile_25: -879237121
+      Idle_Rat_AnimationSheet_Profile_26: 1102775793
+      Idle_Rat_AnimationSheet_Profile_27: -1658114100
+      Idle_Rat_AnimationSheet_Profile_28: 860059229
+      Idle_Rat_AnimationSheet_Profile_29: -1363166347
+      Idle_Rat_AnimationSheet_Profile_3: -1475971352
+      Idle_Rat_AnimationSheet_Profile_30: 1841485317
+      Idle_Rat_AnimationSheet_Profile_31: -1635836179
+      Idle_Rat_AnimationSheet_Profile_32: 1067424562
+      Idle_Rat_AnimationSheet_Profile_33: 458255307
+      Idle_Rat_AnimationSheet_Profile_34: -1640420362
+      Idle_Rat_AnimationSheet_Profile_35: 178485263
+      Idle_Rat_AnimationSheet_Profile_36: 17283410
+      Idle_Rat_AnimationSheet_Profile_37: -1939345951
+      Idle_Rat_AnimationSheet_Profile_38: -429769178
+      Idle_Rat_AnimationSheet_Profile_39: 2058170529
+      Idle_Rat_AnimationSheet_Profile_4: -1022486339
+      Idle_Rat_AnimationSheet_Profile_40: -1547277962
+      Idle_Rat_AnimationSheet_Profile_41: -414730093
+      Idle_Rat_AnimationSheet_Profile_42: 1070973087
+      Idle_Rat_AnimationSheet_Profile_43: 287997019
+      Idle_Rat_AnimationSheet_Profile_44: -610282239
+      Idle_Rat_AnimationSheet_Profile_45: -1044679238
+      Idle_Rat_AnimationSheet_Profile_46: -859032089
+      Idle_Rat_AnimationSheet_Profile_47: 1550240705
+      Idle_Rat_AnimationSheet_Profile_48: 31632654
+      Idle_Rat_AnimationSheet_Profile_49: 752419742
+      Idle_Rat_AnimationSheet_Profile_5: -2014296650
+      Idle_Rat_AnimationSheet_Profile_50: -2137342073
+      Idle_Rat_AnimationSheet_Profile_51: 1494530526
+      Idle_Rat_AnimationSheet_Profile_52: 1826329532
+      Idle_Rat_AnimationSheet_Profile_53: -803358041
+      Idle_Rat_AnimationSheet_Profile_54: 2124802021
+      Idle_Rat_AnimationSheet_Profile_55: 1070437925
+      Idle_Rat_AnimationSheet_Profile_56: -1455751089
+      Idle_Rat_AnimationSheet_Profile_57: 805930987
+      Idle_Rat_AnimationSheet_Profile_58: -430235873
+      Idle_Rat_AnimationSheet_Profile_59: 805544808
+      Idle_Rat_AnimationSheet_Profile_6: 804106181
+      Idle_Rat_AnimationSheet_Profile_60: -1891600035
+      Idle_Rat_AnimationSheet_Profile_61: -241863223
+      Idle_Rat_AnimationSheet_Profile_62: -1196774155
+      Idle_Rat_AnimationSheet_Profile_63: -823229250
+      Idle_Rat_AnimationSheet_Profile_7: 943184505
+      Idle_Rat_AnimationSheet_Profile_8: -1881295528
+      Idle_Rat_AnimationSheet_Profile_9: -1722801825
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
