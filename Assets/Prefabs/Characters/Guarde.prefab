@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5534638392444262181}
   - component: {fileID: 2358617414574355008}
   - component: {fileID: 7106613523743348690}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Guarde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ CapsuleCollider:
   m_Radius: 3.15
   m_Height: 6.3
   m_Direction: 1
-  m_Center: {x: 0, y: 3.12, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!136 &2358617414574355008
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -136,7 +136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5038986934701480081}
   - component: {fileID: 1756851000974464372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FieldOfVision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 2104162846217670949}
   - component: {fileID: 5902198308816860658}
   - component: {fileID: 7037196645126664187}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}

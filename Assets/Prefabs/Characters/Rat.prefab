@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5069703771280737960}
   - component: {fileID: 686090307966615520}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,6 +51,7 @@ MonoBehaviour:
   randomZ: 0
   VFXDeath: {fileID: 2925574346804950523}
   GFX: {fileID: 5127288058384794220}
+  Ratnimation: {fileID: 8045673829119930084}
 --- !u!1 &5127288058384794220
 GameObject:
   m_ObjectHideFlags: 0
@@ -64,7 +65,7 @@ GameObject:
   - component: {fileID: 4862747412908480948}
   - component: {fileID: 8235116542644139959}
   - component: {fileID: 8045673829119930084}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +201,7 @@ GameObject:
   - component: {fileID: 7946809581262410852}
   - component: {fileID: 2925574346804950523}
   - component: {fileID: 1353128219702788858}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1676,7 +1677,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: -1178182771, guid: 913f76289e2b10b47af8dd68ad2a7d16, type: 3}
+    - sprite: {fileID: 954493404, guid: 43b6b91c873867a4f84f97bb831e88cc, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:

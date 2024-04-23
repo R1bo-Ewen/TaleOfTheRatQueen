@@ -7,9 +7,11 @@ public class RatControler : MonoBehaviour
     public Transform TransformPlayer;
     public float randomX;
     public float randomZ;
-    [SerializeField]private ParticleSystem VFXDeath;
-    [SerializeField]private GameObject GFX;
+    [SerializeField] private ParticleSystem VFXDeath;
+    [SerializeField] private GameObject GFX;
+    [SerializeField] public Animator Ratnimation;
     private bool isDead = false;
+    
     // Update is called once per frame
     void LateUpdate()
     {
@@ -19,7 +21,7 @@ public class RatControler : MonoBehaviour
             transform.rotation = TransformPlayer.rotation;
         }
     }
-
+    
     public void Death()
     {
         StartCoroutine(CrtDeath());
