@@ -213,6 +213,13 @@ public class MapGeneration : MonoBehaviour
                 door.tile.transform.Rotate(0.0f, 90.0f, 0.0f);
             }
 
+            // 50% chance to flip the door, for the door to be at another position on the wall.
+            bool isDoorFlipped = Random.value < 0.5f;
+            if (isDoorFlipped)
+            {
+                door.tile.transform.Rotate(0.0f, 180.0f, 0.0f);
+            }
+
             door.UpdateRoomsSpawnedWalls();
             door.tile.transform.SetParent(doorsParent.transform);
         }
