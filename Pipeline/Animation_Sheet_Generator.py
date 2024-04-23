@@ -7,12 +7,12 @@ import os
 
 
 DIRECTORIES_TO_PARSE: list[str] = [
-        r"Assets\Sprites\Character\Garde\Dos",
-        r"Assets\Sprites\Character\Garde\Face",
-        r"Assets\Sprites\Character\Garde\Profil"
+        r"Assets\Sprites\Character\Rat\Moving_Rat\Back",
+        r"Assets\Sprites\Character\Rat\Moving_Rat\Front",
+        r"Assets\Sprites\Character\Rat\Moving_Rat\Profile"
     ]
-OUTPUT_DIR: str = r"Assets\Sprites\Character\Garde"
-OUTPUT_FILES_NAME: str = "Garde_AnimationSheet"
+OUTPUT_DIR: str = r"Assets\Sprites\Character\Rat"
+OUTPUT_FILES_NAME: str = "Moving_Rat_AnimationSheet"
 OUTPUT_EXTENSION: str = "png"
 
 
@@ -22,13 +22,14 @@ OUTPUT_EXTENSION: str = "png"
 CROP: bool = True
 
 # (left, upper, right, lower)
-# CROP_COORDS: tuple[int, int, int, int] = (370, 380, 1730, 1020)  # Rat
-CROP_COORDS: tuple[int, int, int, int] = (500, 0, 1530, 1080)  # Garde
+# CROP_COORDS: tuple[int, int, int, int] = (370, 380, 1730, 1020)  # Idle rat
+# CROP_COORDS: tuple[int, int, int, int] = (500, 0, 1530, 1080)  # Garde
+CROP_COORDS: tuple[int, int, int, int] = (40, 240, 1830, 980)  # Moving rat
 
 RESIZE: bool = False
 RESIZE_WIDTH: int = 600
 
-TILES_PER_ROW: int = 8
+TILES_PER_ROW: int = 7
 
 
 # ============================ FUNCTIONS DEFINITION ===========================
