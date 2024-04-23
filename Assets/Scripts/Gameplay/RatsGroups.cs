@@ -8,7 +8,6 @@ public class RatsGroups : MonoBehaviour
 {
     public int nbOfRats = 1;
     public int FoodEaten = 0;
-    private float inFoodRangeTime = 0f;
     private bool inFoodRange;
     private GameObject foodGameObject;
     private List<GameObject> ennemiesInRange;
@@ -32,6 +31,7 @@ public class RatsGroups : MonoBehaviour
     {
         // Add a rat to the group, and a food to the total of food eaten
         nbOfRats++;
+        player.AddRats(1);
         player.EatFood();
         CreateRat(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
     }
@@ -50,6 +50,7 @@ public class RatsGroups : MonoBehaviour
     public void TakeDamage(int incomingDamage)
     {
         nbOfRats -= incomingDamage;
+        player.AddRats(incomingDamage);
         if (nbOfRats > 0)
         {
             // Killing the rats so the number of rat visible correspond to the number of rats remaining 
@@ -62,7 +63,7 @@ public class RatsGroups : MonoBehaviour
         }
         else
         {
-            // Loose Function
+            //End of game
         }
     }
 }

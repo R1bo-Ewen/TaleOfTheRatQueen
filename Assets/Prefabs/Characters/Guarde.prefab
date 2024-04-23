@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6957206264735404900}
   - component: {fileID: 5534638392444262181}
   - component: {fileID: 2358617414574355008}
+  - component: {fileID: 7106613523743348690}
   m_Layer: 0
   m_Name: Guarde
   m_TagString: Untagged
@@ -33,6 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1894519937262480869}
+  - {fileID: 5038986934701480081}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6957206264735404900
@@ -47,13 +49,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc9b219c384f5ac48a7391428d377eaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackHit:
-    m_PersistentCalls:
-      m_Calls: []
   data: {fileID: 11400000, guid: 4a367ab06403dc44d80f6d7462bbc1dc, type: 2}
   attackAnimation: 0
-  state: 1
-  attackRange: {fileID: 5534638392444262181}
+  state: 0
 --- !u!136 &5534638392444262181
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -100,6 +98,128 @@ CapsuleCollider:
   m_Height: 6.3
   m_Direction: 1
   m_Center: {x: 0, y: 3.12, z: 0}
+--- !u!114 &7106613523743348690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366914244565422061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e14402fdd1fb314ba734660e8efdc7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewRadius: 10
+  viewAngle: 80
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 0
+  zombieMask:
+    serializedVersion: 2
+    m_Bits: 0
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 0
+  meshResolution: 1
+  edgeResolveIterations: 6
+  edgeDistanceThreshold: 0.5
+  shadowByTarget: 1
+  target: {fileID: 0}
+--- !u!1 &1114972134216422143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5038986934701480081}
+  - component: {fileID: 1756851000974464372}
+  m_Layer: 0
+  m_Name: FieldOfVision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5038986934701480081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114972134216422143}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.42054275, y: -0, z: -0, w: 0.90727276}
+  m_LocalPosition: {x: 0, y: 5.35, z: 0.00000031570605}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3116784660151081101}
+  m_LocalEulerAnglesHint: {x: 49.738, y: 0, z: 0}
+--- !u!108 &1756851000974464372
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114972134216422143}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 0.13207549, g: 0, b: 0, a: 1}
+  m_Intensity: 100
+  m_Range: 12
+  m_SpotAngle: 78
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &8345027890679490194
 GameObject:
   m_ObjectHideFlags: 0

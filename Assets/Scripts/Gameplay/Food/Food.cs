@@ -13,7 +13,7 @@ public class Food : MonoBehaviour
          if (Col.gameObject.GetComponent<RatsGroups>() != null)
          {
              isInEatingRange = true;
-             Col.gameObject.GetComponent<Food>().VFX.SetActive(true);
+             VFX.SetActive(true);
              closestGroup = Col.gameObject;
          }
      }
@@ -22,8 +22,9 @@ public class Food : MonoBehaviour
      {
          if (Col.gameObject.GetComponent<RatsGroups>() != null)
          {
-             Col.gameObject.GetComponent<Food>().VFX.SetActive(false);
+             VFX.SetActive(false);
              isInEatingRange = false;
+             closestGroup = null;
          }
      }
      
