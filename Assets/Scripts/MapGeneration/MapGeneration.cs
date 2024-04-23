@@ -44,23 +44,30 @@ public class MapGeneration : MonoBehaviour
     {
         map = new Map(mapSize);
 
-        ShuffleRoomsTypes();
+        // Generate the list of room types to spawn.
+        GenerateRoomsTypesOrder();
 
+        // Create the first room at the center of the map.
         Vector2Int firstRoomCoords = new Vector2Int(mapSize.x / 2, mapSize.y / 2);
         CreateRoom(firstRoomCoords);
 
+        // Create the other rooms and connect them with doors.
         for (int i = 1; i < nbRoomMax; i++)
         {
             ExploreRoom(map.rooms.Last());
         }
 
+        // Spawn the rooms, doors, and walls in the game world.
         SpawnMapElements();
+
+        // Set the spawn location to the first room's position.
         SetSpawnLocation();
+
         print("Map generated");
     }
 
-    // Shuffle the room types
-    private void ShuffleRoomsTypes()
+    // Create a list of room types in a random order.
+    private void GenerateRoomsTypesOrder()
     {
         // Add the special room types to the list
         roomsTypes = new List<RoomType>
@@ -133,12 +140,18 @@ public class MapGeneration : MonoBehaviour
     // Spawns the rooms, doors and walls in the game world based on their positions.
     private void SpawnMapElements()
     {
+        // Create empty game objects to organize the spawned elements.
         GameObject roomsParent = new GameObject();
         roomsParent.name = "Rooms";
+        roomsParent.transform.SetParent(this.transform);
+
         GameObject doorsParent = new GameObject();
         doorsParent.name = "Doors";
+        doorsParent.transform.SetParent(this.transform);
+
         GameObject wallParent = new GameObject();
         wallParent.name = "Walls";
+        wallParent.transform.SetParent(this.transform);
 
 
         // Rooms
@@ -146,6 +159,7 @@ public class MapGeneration : MonoBehaviour
         {
             GameObject roomPrefab;
 
+            // Set the room prefab based on its type.
             switch (room.type)
             {
                 case RoomType.KITCHEN:
@@ -163,14 +177,18 @@ public class MapGeneration : MonoBehaviour
             }
 
             room.tile = Instantiate(roomPrefab);
+
+            // Get the size of the room tile and set its position accordingly.
             room.tileSize = room.tile.GetComponent<PrefabBounds>().GetSize();
             room.tile.transform.position = new Vector3(room.tileSize.x * room.coords.x, 0.0f, room.tileSize.z * room.coords.y);
+
             room.tile.transform.SetParent(roomsParent.transform);
         }
 
         // Doors
         foreach (Door door in map.doors)
         {
+            // Update the door position based on the positions of the rooms it connects.
             door.UpdatePosition();
 
             // If the door connects two corridors maybe we won't spawn it.
@@ -188,7 +206,7 @@ public class MapGeneration : MonoBehaviour
             }
 
             door.tile = Instantiate(doorPrefabs[Random.Range(0, doorPrefabs.Count)]);
-            door.tile.transform.position = new Vector3(door.GetPosition().x, 0.0f, door.GetPosition().y);
+            door.tile.transform.position = new Vector3(door.position.x, 0.0f, door.position.y);
 
             if (door.direction == Direction.NORTH | door.direction == Direction.SOUTH)
             {
@@ -202,6 +220,7 @@ public class MapGeneration : MonoBehaviour
         // Walls
         for (int i = 0; i < map.rooms.Count; i++)
         {
+            // If the room is the first one, spawn an exit wall.
             if (i == 0)
             {
                 List<Direction> availableDirection = new List<Direction> { };
@@ -218,8 +237,10 @@ public class MapGeneration : MonoBehaviour
                 SpawnWall(map.rooms[i], spawnDirection, exitWallPrefab);
             }
 
+            // Spawn the walls of the room.
             foreach (Direction direction in DIRECTIONS)
             {
+                // If the wall is already spawned, continue.
                 if (map.rooms[i].GetSpawnedWalls().Contains(direction))
                 {
                     continue;
@@ -271,6 +292,8 @@ public class MapGeneration : MonoBehaviour
         wallObject.transform.SetParent(GameObject.Find("Walls").transform);
         room.AddSpawnedWall(direction);
     }
+
+    // Sets the spawn location to the first room's position.
     private void SetSpawnLocation()
     {
         spawnLocation = map.rooms[0].tile.transform.position;

@@ -225,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5055511471817639985, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.09138501
+      value: -0.091385014
       objectReference: {fileID: 0}
     - target: {fileID: 5847311020938956412, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_Name
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 1640515889}
   - component: {fileID: 1640515888}
   m_Layer: 0
-  m_Name: Manager
+  m_Name: Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,10 +405,10 @@ MonoBehaviour:
   nbRoomMax: 10
   wallPrefab: {fileID: 5752702330304392158, guid: 13409c51666068d4a98be7fee7e05dce, type: 3}
   exitWallPrefab: {fileID: 5752702330304392158, guid: dae14f65873b23c49adc1199aa7c5d17, type: 3}
+  defaultRoomPrefab: {fileID: 6478756434531161961, guid: f89a38033c2a8a340ab1587c09aae0a9, type: 3}
   doorPrefabs:
   - {fileID: 5752702330304392158, guid: cd8d6d7710aac614fbb030d7fff1b35d, type: 3}
   - {fileID: 5752702330304392158, guid: fd8718f031e6cfa48bc0b49f9ab0edd1, type: 3}
-  defaultRoomPrefab: {fileID: 6478756434531161961, guid: f89a38033c2a8a340ab1587c09aae0a9, type: 3}
   kitchenPrefabs:
   - {fileID: 4969056205340727898, guid: 7a530872666641a41b8c8fabfc01b60f, type: 3}
   - {fileID: 4969056205340727898, guid: c014490ad284fc749ae097a9b3c23601, type: 3}
