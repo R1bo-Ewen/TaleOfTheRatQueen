@@ -25,6 +25,7 @@ CROP: bool = True
 # CROP_COORDS: tuple[int, int, int, int] = (370, 380, 1730, 1020)  # Idle rat
 # CROP_COORDS: tuple[int, int, int, int] = (500, 0, 1530, 1080)  # Garde
 CROP_COORDS: tuple[int, int, int, int] = (40, 240, 1830, 980)  # Moving rat
+# CROP_COORDS: tuple[int, int, int, int] = (990, 660, 1350, 1040)  # Apple
 
 RESIZE: bool = False
 RESIZE_WIDTH: int = 600
