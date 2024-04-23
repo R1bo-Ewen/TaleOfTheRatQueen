@@ -86,7 +86,11 @@ public class MapGeneration : MonoBehaviour
             roomsTypes.Add(RoomType.CORRIDOR);
         }
 
-        Shuffle(roomsTypes);
+        // Avoid the first room to be a special room
+        while(roomsTypes[0] != RoomType.CORRIDOR)
+        {
+            Shuffle(roomsTypes);
+        }
     }
 
     // Shuffle a list
