@@ -593,7 +593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6867741309411040950, guid: 81ca17f656a0c15439ef1cb4d47b822a, type: 3}
       propertyPath: m_Name
-      value: AppleCollectible (2)
+      value: AppleCollectible
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

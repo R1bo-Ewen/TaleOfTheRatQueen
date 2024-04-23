@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public int FoodEaten;
-    public int totalRats;
+    public int FoodEaten = 0;
+    public int totalRats = 0;
 
     public void EatFood()
     {

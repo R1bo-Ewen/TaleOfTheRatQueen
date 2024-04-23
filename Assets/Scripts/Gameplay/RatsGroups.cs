@@ -1,17 +1,26 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.UI;
 using UnityEditorInternal;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class RatsGroups : MonoBehaviour
 {
     public int nbOfRats = 1;
     private bool inFoodRange;
     private List<GameObject> ratsList;
+    private bool isActiveGroup = true;
     public Player player;
     [SerializeField] private GameObject ratsContainer;
     [SerializeField] private GameObject ratPrefab;
+    public STATE state;
+    public enum STATE
+    {
+        IDLE,
+        MOVE
+    }
 
     void Start()
     {
@@ -60,6 +69,30 @@ public class RatsGroups : MonoBehaviour
         else
         {
             //End of game
+        }
+    }
+
+    public void StopMove()
+    {
+        if (state != STATE.IDLE)
+        {
+            state = STATE.IDLE;
+            foreach (GameObject rat in ratsList)
+            {
+                rat.GetComponent<RatControler>().Ratnimation.SetTrigger("Idle");
+            }
+        }
+    }
+    
+    public void Move()
+    {
+        if (state != STATE.MOVE)
+        {
+            state = STATE.MOVE;
+            foreach (GameObject rat in ratsList)
+            {
+                rat.GetComponent<RatControler>().Ratnimation.SetTrigger("Move");
+            }
         }
     }
 }
