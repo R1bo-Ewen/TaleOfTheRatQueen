@@ -11,14 +11,17 @@ public class MapGeneration : MonoBehaviour
     [SerializeField] private Vector2Int mapSize = new Vector2Int(20, 20);     // Virtual map grid size
     [SerializeField, Range(5, 50)] private int nbRoomMax = 10;               // Maximum number of rooms
 
-    [Header("========== PREFABS ====================")]
-    [SerializeField] private GameObject wallPrefab;
-    [SerializeField] private GameObject exitWallPrefab;
-    [SerializeField] private GameObject defaultRoomPrefab;
-    [SerializeField] private List<GameObject> doorPrefabs;
+    [Header("---------- ROOMS PREFABS ----------")]
+    [SerializeField] private List<GameObject> corridorPrefabs;
     [SerializeField] private List<GameObject> kitchenPrefabs;
     [SerializeField] private List<GameObject> bedroomPrefabs;
     [SerializeField] private List<GameObject> bigRoomPrefabs;
+
+    [Header("---------- WALLS AND DOORS PREFABS ----------")]
+    [SerializeField] private GameObject wallPrefab;
+    [SerializeField] private GameObject exitWallPrefab;
+    [SerializeField] private List<GameObject> doorPrefabs;
+
 
     public enum RoomType
     {
@@ -172,7 +175,7 @@ public class MapGeneration : MonoBehaviour
                     roomPrefab = bigRoomPrefabs[Random.Range(0, bigRoomPrefabs.Count)];
                     break;
                 default:
-                    roomPrefab = defaultRoomPrefab;
+                    roomPrefab = corridorPrefabs[Random.Range(0, corridorPrefabs.Count)];
                     break;
             }
 
