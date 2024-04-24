@@ -15,7 +15,6 @@ public class MapGeneration : MonoBehaviour
     [SerializeField] private List<GameObject> corridorPrefabs;
     [SerializeField] private List<GameObject> kitchenPrefabs;
     [SerializeField] private List<GameObject> bedroomPrefabs;
-    [SerializeField] private List<GameObject> bigRoomPrefabs;
 
     [Header("---------- WALLS AND DOORS PREFABS ----------")]
     [SerializeField] private GameObject wallPrefab;
@@ -27,8 +26,7 @@ public class MapGeneration : MonoBehaviour
     {
         CORRIDOR,
         KITCHEN,
-        BEDROOM,
-        BIGROOM
+        BEDROOM
     }
 
     private List<RoomType> roomsTypes;
@@ -81,7 +79,6 @@ public class MapGeneration : MonoBehaviour
         {
             RoomType.KITCHEN,
             RoomType.BEDROOM,
-            RoomType.BIGROOM
         };
 
         // Fill the list with default room type
@@ -178,9 +175,6 @@ public class MapGeneration : MonoBehaviour
                     break;
                 case RoomType.BEDROOM:
                     roomPrefab = bedroomPrefabs[Random.Range(0, bedroomPrefabs.Count)];
-                    break;
-                case RoomType.BIGROOM:
-                    roomPrefab = bigRoomPrefabs[Random.Range(0, bigRoomPrefabs.Count)];
                     break;
                 default:
                     roomPrefab = corridorPrefabs[Random.Range(0, corridorPrefabs.Count)];
