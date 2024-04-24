@@ -33,7 +33,7 @@ public class MapGeneration : MonoBehaviour
 
     private List<RoomType> roomsTypes;
 
-    Map map;
+    public Map map;
     [NonSerialized] public Vector3 spawnLocation = Vector3.zero;
     private int seed;
 
