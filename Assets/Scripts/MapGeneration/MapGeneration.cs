@@ -85,17 +85,16 @@ public class MapGeneration : MonoBehaviour
         };
 
         // Fill the list with default room type
-        for (int i = roomsTypes.Count; i < nbRoomMax; i++)
+        for (int i = roomsTypes.Count; i < nbRoomMax - 1; i++)
         {
             roomsTypes.Add(RoomType.CORRIDOR);
         }
 
-        // Avoid the first room to be a special room
-        // TO FIX : doesn't work
-        while(roomsTypes[0] != RoomType.CORRIDOR)
-        {
-            Shuffle(roomsTypes);
-        }
+        Shuffle(roomsTypes);
+
+        // Add the default room type at the end of the list to avoid the spawn
+        // room to be a special room (the list is backwards iterated)
+        roomsTypes.Add(RoomType.CORRIDOR);
     }
 
     // Shuffle a list
