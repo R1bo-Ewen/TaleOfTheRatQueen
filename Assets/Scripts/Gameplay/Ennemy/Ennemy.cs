@@ -1,17 +1,25 @@
+using System.Collections;
 using UnityEngine;
+using System.Collections.Generic;
+using UnityEngine.AI;
 
 public class Ennemy : MonoBehaviour
 {
     public EnnemyData data;
     public float attackAnimation = 0;
     public STATE state;
-    private GameObject closestEnemy = null;
+    public GameObject closestEnemy = null;
+    public List<Vector3> guardePatrol = new List<Vector3>();
     private bool isInAttackRange;
+    private int destinationIndex = 0;
+    private bool reverseGuardePatrol = false;
+    [SerializeField] private NavMeshAgent agent;
+    private Vector3 nextDestination;
     
     public enum STATE 
     {
-        CALME,
-        ALARMED,
+        PATROLING,
+        CHASING,
     }
     
     public void OnTriggerEnter(Collider Col)
@@ -29,23 +37,39 @@ public class Ennemy : MonoBehaviour
         {
             isInAttackRange = false;
             attackAnimation = 0f;
-            closestEnemy = null;
         }
     }
-    
+
     private void Update()
     {
-        if (isInAttackRange && state == STATE.ALARMED)
+        if (state == STATE.CHASING)
         {
-            Vector3 closestEnemyLocation = new Vector3(closestEnemy.transform.position.x,
-                transform.position.y,
-                closestEnemy.transform.position.z);
-            transform.LookAt(closestEnemyLocation);
-            attackAnimation += Time.deltaTime;
-            if (attackAnimation >= data.attackingTime)
+            agent.destination = closestEnemy.transform.position;
+            if (isInAttackRange)
             {
-                closestEnemy.GetComponent<RatsGroups>().TakeDamage(data.damage);
-                attackAnimation = 0;
+                Vector3 closestEnemyLocation = new Vector3(closestEnemy.transform.position.x,
+                    transform.position.y,
+                    closestEnemy.transform.position.z);
+                transform.LookAt(closestEnemyLocation);
+                attackAnimation += Time.deltaTime;
+                if (attackAnimation >= data.attackingTime)
+                {
+                    closestEnemy.GetComponent<RatsGroups>().TakeDamage(data.damage);
+                    attackAnimation = 0;
+                }
+            }
+        }
+
+        if (state == STATE.PATROLING)
+        {
+            if (agent.remainingDistance <= 1f)
+            {
+                destinationIndex++;
+                if (destinationIndex == guardePatrol.Count)
+                {
+                    destinationIndex = 0;
+                }
+                agent.destination = guardePatrol[destinationIndex];
             }
         }
     }
