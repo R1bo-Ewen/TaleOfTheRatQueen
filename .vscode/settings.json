@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Tale of the Rat Queen.sln"
+    "dotnet.defaultSolution": "TaleOfTheRatQueen.sln"
 }
