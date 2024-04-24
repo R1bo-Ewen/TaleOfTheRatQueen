@@ -4,7 +4,7 @@
 
 Map avec 3 salles CORRIDOR disposées en L : recouvrement de coins de murs apparent.
 
-![184642](pics/seed_184642.png)
+![184642](pics/seed_184642.jpg)
 
 ## 720612
 
