@@ -6,8 +6,8 @@ Map avec 3 salles CORRIDOR disposées en L : recouvrement de coins de murs appar
 
 ![184642](pics/seed_184642.jpg)
 
-## 720612
+## 471196
 
 La première room de la map est complètement entourée : l'exitWall ne peut pas spawner car il n'est pas censé relier 2 salles.
 
-![720612](pics/seed_720612.png)
+![471196](pics/seed_471196.png)
