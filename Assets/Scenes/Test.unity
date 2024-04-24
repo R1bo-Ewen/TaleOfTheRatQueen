@@ -260,11 +260,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3205276818607891509, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00077666907
+      value: 0.0007766521
       objectReference: {fileID: 0}
     - target: {fileID: 3205276818607891509, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00014259283
+      value: -0.00014258972
       objectReference: {fileID: 0}
     - target: {fileID: 5055511471817639985, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -284,11 +284,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5055511471817639985, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000783026
+      value: 0.0007829919
       objectReference: {fileID: 0}
     - target: {fileID: 5055511471817639985, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00010213457
+      value: -0.000102130114
       objectReference: {fileID: 0}
     - target: {fileID: 5847311020938956412, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_Name
@@ -332,11 +332,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7292445447813707807, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00077666907
+      value: 0.00077665213
       objectReference: {fileID: 0}
     - target: {fileID: 7292445447813707807, guid: 65474c50523ae7a419e7f087b37685e3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00014259286
+      value: -0.00014258975
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -570,12 +570,6 @@ MonoBehaviour:
   - {fileID: 4969056205340727898, guid: 25253eb919587a540a7ffa9b1e07a956, type: 3}
   bedroomPrefabs:
   - {fileID: 7241302759481292195, guid: e68420ea0fd923b418499a217e43a16f, type: 3}
-  - {fileID: 7241302759481292195, guid: 355afb30d1f2ba04ca79c4d81838d2ab, type: 3}
-  - {fileID: 7241302759481292195, guid: bc95dbc669e629c4281621c8d11d8646, type: 3}
-  bigRoomPrefabs:
-  - {fileID: 2485540617445524943, guid: a6c005f9b8aac27408d39ce2f14f63ce, type: 3}
-  - {fileID: 2485540617445524943, guid: db94fba62e2ba8d47a890e8b3c47d3dc, type: 3}
-  - {fileID: 2485540617445524943, guid: ff7414e6f0502e3488fdd4708583a941, type: 3}
   wallPrefab: {fileID: 5752702330304392158, guid: 13409c51666068d4a98be7fee7e05dce, type: 3}
   exitWallPrefab: {fileID: 5752702330304392158, guid: dae14f65873b23c49adc1199aa7c5d17, type: 3}
   doorPrefabs:
