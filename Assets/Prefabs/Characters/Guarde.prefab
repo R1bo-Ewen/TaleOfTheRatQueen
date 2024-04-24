@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6957206264735404900}
   - component: {fileID: 5534638392444262181}
   - component: {fileID: 2358617414574355008}
-  - component: {fileID: 7106613523743348690}
+  - component: {fileID: 7541249869070993695}
   m_Layer: 6
   m_Name: Guarde
   m_TagString: Untagged
@@ -52,6 +52,9 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: 4a367ab06403dc44d80f6d7462bbc1dc, type: 2}
   attackAnimation: 0
   state: 0
+  closestEnemy: {fileID: 0}
+  guardePatrol: []
+  agent: {fileID: 7541249869070993695}
 --- !u!136 &5534638392444262181
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -98,34 +101,28 @@ CapsuleCollider:
   m_Height: 6.3
   m_Direction: 1
   m_Center: {x: 0, y: 3.12, z: 0}
---- !u!114 &7106613523743348690
-MonoBehaviour:
+--- !u!195 &7541249869070993695
+NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366914244565422061}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e14402fdd1fb314ba734660e8efdc7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  viewRadius: 10
-  viewAngle: 80
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 0
-  zombieMask:
-    serializedVersion: 2
-    m_Bits: 0
-  obstacleMask:
-    serializedVersion: 2
-    m_Bits: 0
-  meshResolution: 1
-  edgeResolveIterations: 6
-  edgeDistanceThreshold: 0.5
-  shadowByTarget: 1
-  target: {fileID: 0}
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1114972134216422143
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,6 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5038986934701480081}
   - component: {fileID: 1756851000974464372}
+  - component: {fileID: 6502038056937769134}
+  - component: {fileID: 4216463357572304497}
   m_Layer: 6
   m_Name: FieldOfVision
   m_TagString: Untagged
@@ -220,6 +219,42 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!136 &6502038056937769134
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114972134216422143}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4.4
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 7}
+--- !u!114 &4216463357572304497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114972134216422143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b260a6bf4d5f0745bf05d0ce5b86366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 6957206264735404900}
 --- !u!1 &8345027890679490194
 GameObject:
   m_ObjectHideFlags: 0

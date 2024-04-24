@@ -11,7 +11,7 @@ public class RatsGroups : MonoBehaviour
     public int nbOfRats = 1;
     private bool inFoodRange;
     private List<GameObject> ratsList;
-    private bool isActiveGroup = true;
+    // private bool isActiveGroup = true;
     public Player player;
     [SerializeField] private GameObject ratsContainer;
     [SerializeField] private GameObject ratPrefab;

@@ -1,13 +1,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.AI.Navigation;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 using static GPS;
 
 // Generates a map by creating rooms and connecting them with doors.
 public class MapGeneration : MonoBehaviour
 {
+    [SerializeField] private NavMeshSurface navMeshEnemies;
     [SerializeField] private Vector2Int mapSize = new Vector2Int(20, 20);     // Virtual map grid size
     [SerializeField, Range(5, 50)] private int nbRoomMax = 10;               // Maximum number of rooms
 
@@ -20,6 +23,9 @@ public class MapGeneration : MonoBehaviour
     [SerializeField] private GameObject wallPrefab;
     [SerializeField] private GameObject exitWallPrefab;
     [SerializeField] private List<GameObject> doorPrefabs;
+
+    [Header("---------- ENNEMIES ----------")] 
+    [SerializeField] private List<GameObject> ennemiesPrefab; 
 
 
     public enum RoomType
@@ -64,10 +70,11 @@ public class MapGeneration : MonoBehaviour
 
         // Spawn the rooms, doors, and walls in the game world.
         SpawnMapElements();
-
+        
         // Set the spawn location to the first room's position.
         SetSpawnLocation();
-
+        navMeshEnemies.BuildNavMesh();
+        SpawnEnemies(map.rooms);
         print("Map generated");
     }
 
@@ -308,7 +315,6 @@ public class MapGeneration : MonoBehaviour
         {
             wallObject.GetComponent<WinZone>().player = GameObject.Find("Player").GetComponent<Player>();
         }
-
         room.AddSpawnedWall(direction);
     }
 
@@ -316,5 +322,24 @@ public class MapGeneration : MonoBehaviour
     private void SetSpawnLocation()
     {
         spawnLocation = map.rooms[0].tile.transform.position;
+    }
+
+    public void SpawnEnemies(List<Room> rooms)
+    {
+        foreach(GameObject ennemy in ennemiesPrefab)
+        {
+            int startingRoomIndex = Random.Range(1, rooms.Count()-3);
+            GameObject Guarde = Instantiate(ennemy, rooms[startingRoomIndex].tile.transform.position, transform.rotation);
+            Ennemy guardeEnnemy = Guarde.GetComponent<Ennemy>();
+            guardeEnnemy.guardePatrol.Clear();
+            for (int i = 0; i < 3; i++)
+            {
+                guardeEnnemy.guardePatrol.Add(rooms[startingRoomIndex + i ].tile.transform.position);
+            }
+            for (int i = guardeEnnemy.guardePatrol.Count - 1; i > 0; i--)
+            {
+                guardeEnnemy.guardePatrol.Add(guardeEnnemy.guardePatrol[i]);
+            }
+        }
     }
 }
