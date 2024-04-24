@@ -309,6 +309,13 @@ public class MapGeneration : MonoBehaviour
         wallObject.transform.position = position;
         wallObject.transform.Rotate(rotation);
         wallObject.transform.SetParent(GameObject.Find("Walls").transform);
+
+        // If exit wall, set the WinZone script with current Player object.
+        if(wallObject.GetComponent<WinZone>() != null)
+        {
+            wallObject.GetComponent<WinZone>().player = GameObject.Find("Player").GetComponent<Player>();
+        }
+
         room.AddSpawnedWall(direction);
     }
 
