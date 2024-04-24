@@ -35,9 +35,13 @@ public class MapGeneration : MonoBehaviour
 
     Map map;
     [NonSerialized] public Vector3 spawnLocation = Vector3.zero;
+    private int seed;
 
     private void Start()
     {
+        seed = Random.Range(0, 1000000);
+        Random.InitState(seed);
+        print("Seed : " + seed);
         GenerateMap();
     }
 
