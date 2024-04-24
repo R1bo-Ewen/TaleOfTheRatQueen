@@ -11,6 +11,11 @@ public class RatControler : MonoBehaviour
     [SerializeField] private GameObject GFX;
     [SerializeField] public Animator Ratnimation;
     private bool isDead = false;
+
+    public void Start()
+    {
+        Ratnimation.SetFloat("OffSet", Random.Range(0f, 1f));
+    }
     
     // Update is called once per frame
     void LateUpdate()
